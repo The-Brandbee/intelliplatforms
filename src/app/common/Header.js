@@ -28,15 +28,15 @@ function IndexPage() {
           <HeaderMobileIn />
         <div className="header-right">
             <ul>
-              <Link href="#">Resources</Link>
+              {/*  <Link href="#">Resources</Link>
               <Link href="#">Customised Solutions</Link>
-              <Link href="#">Partner</Link>
+              <Link href="#">Partner</Link> */}
               <Link href="#">About Us</Link>
-              <Link href="#">Contact Us</Link>
+              {/*  <Link href="#">Contact Us</Link>*/}
             </ul>
-            <div className="header-login-frame">
+           {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>
-            </div>
+            </div>*/}
         </div>
     </div>
     </div>

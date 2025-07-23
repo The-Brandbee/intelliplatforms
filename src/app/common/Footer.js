@@ -16,10 +16,11 @@ function IndexPage() {
                     <form>
                       <input type="text" placeholder="Email" className="text-from"/>
                     </form>
-                     <Image src={Logo} alt="" />
+                      {/* <Image src={Logo} alt="" />*/}
                 </div>
                  <div className="footer-right">
-                    <ul>
+                    <Image src={Logo} alt="" />
+                    {/* <ul>
                       <li>
                         <Link href="#">Contact Us</Link>
                       </li>
@@ -35,7 +36,7 @@ function IndexPage() {
                       <li>
                         <Link href="#">Resources</Link>
                       </li>
-                    </ul>
+                    </ul>*/}
                 </div>
             </div>
             <div className="footer-bottom">
