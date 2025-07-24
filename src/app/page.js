@@ -47,7 +47,7 @@ export default function Home() {
 
         <header>
           <Header />
-         
+
        </header> 
 
 <section className="home-banner">
@@ -60,7 +60,7 @@ export default function Home() {
                   <p>Inteli Platforms empowers enterprises to innovate and scale through certified talent, global delivery, and smart technology execution</p>
                   <div className="banner-bottom">
                        <Link href="#">Explore Our Services</Link>
-                       <Link href="#">Contact Our Team</Link>
+                       <Link href="mailto:newrelic@avistos.com">Contact Our Team</Link>
                   </div>
              </div>
              <div className="home-banner-middle-middle-botto-heading">
@@ -223,7 +223,7 @@ export default function Home() {
                   <p>Whether you're scaling cloud infrastructure, modernizing your app ecosystem, or strengthening your data layer, we’re built to deliver.</p>
                  <p>
                   <Link href="/">Explore Our Services</Link>
-                  <Link href="/">Contact Our Team</Link>
+                  <Link href="mailto:newrelic@avistos.com">Contact Our Team</Link>
                  </p>
               </div>
           </div>
