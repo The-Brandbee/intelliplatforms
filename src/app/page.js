@@ -158,9 +158,7 @@ export default function Home() {
                        <Image src={MONITORINGTw} alt="" />
                     </div>
                </div> 
-               <div className="arrow-container">
-    <div className="triangle"></div>
-  </div>
+        
                </div>
                <div className="your-strategic-it-services-partner-middle-left">
                 <div className="your-strategic-it-services-partner-middle-left-middle">
@@ -174,9 +172,7 @@ export default function Home() {
                        <Image src={MONITORINGTL} alt="" />
                     </div>
                     </div>
-                    <div className="arrow-container">
-    <div className="triangle"></div>
-  </div>
+                  
                </div> 
            </div>
      </div>

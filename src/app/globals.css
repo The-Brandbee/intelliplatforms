@@ -377,8 +377,7 @@ color: #27917F;
     border-radius: 30px;
     position: relative;
     padding: 60px 65px;
-    height: 645px;
-    overflow: auto;
+  
 }
 .your-strategic-it-services-partner-middle-left h3{
  color: #fff;
@@ -410,6 +409,9 @@ color: #27917F;
     width: 80%;
     height: auto;
     margin-top: 70px;
+}
+.MONITORING-images-frame {
+    height: 180px;
 }
 
 /* Hide scrollbar track and border (WebKit) */
@@ -730,6 +732,9 @@ position: absolute;
 }
 
 @media all and (min-width: 120px) and (max-width: 690px){
+  .MONITORING-images-frame {
+    height: auto;  
+}
 
 .mobilemenu-new .accordion__item{
     display: block !important;

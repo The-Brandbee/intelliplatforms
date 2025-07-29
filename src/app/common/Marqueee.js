@@ -25,7 +25,7 @@ export default function TestimonialSlide() {
                                       </div>
                                        <div className="ENTERPRISES-main-frame-inner-middle">
                                            <div className="ENTERPRISES-left">
-                                                <h4>750%</h4>
+                                                <h4>750</h4>
                                                 <p>Certified Professionals <br/>Deployed across <br/> Partner Ecosystem</p>
                                            </div>
                                            <div className="ENTERPRISES-right">
@@ -34,7 +34,7 @@ export default function TestimonialSlide() {
                                       </div>
                                        <div className="ENTERPRISES-main-frame-inner-middle">
                                            <div className="ENTERPRISES-left">
-                                                <h4>11%</h4>
+                                                <h4>11</h4>
                                                 <p>Years of Delivery <br/>Excellence</p>
                                            </div>
                                            <div className="ENTERPRISES-right">
