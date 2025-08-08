@@ -30,8 +30,12 @@ h5,
 h6 {
  font-family:HelveticaNeueBold;
 }
-
-
+ul {
+      letter-spacing: 1.3px;
+}
+li{
+      letter-spacing: 1.3px;
+}
 .home-banner-middle{
   position: relative;
 }
