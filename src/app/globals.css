@@ -30,6 +30,8 @@ h5,
 h6 {
  font-family:HelveticaNeueBold;
 }
+
+
 .home-banner-middle{
   position: relative;
 }
@@ -729,6 +731,45 @@ position: absolute;
 .LET-BUILD-WHAT-NEXT-middle p a:hover{
       background: #012638;
           border: 1.5px solid #012638;
+}
+
+.inner-page-main .footer-top-main {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    left: 0px;
+}
+.faq-main-secton{
+          background: #01C591;
+    padding: 40px 0px;
+}
+.faq-main-secton-heading h1{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.faq-main-secton-heading p{
+  color: #fff;
+  margin-bottom: 0px;
+}
+.faq-main-secton-bottom-middle h4{
+      font-size: 19px;
+}
+.faq-main-secton-bottom-middle ul{
+  margin-bottom: 20px;
+}
+.faq-main-secton-bottom-middle ul li strong{
+  
+}
+.faq-main-secton-bottom-middle{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.faq-main-secton-heading{
+  text-align: center;
 }
 
 @media all and (min-width: 120px) and (max-width: 690px){
