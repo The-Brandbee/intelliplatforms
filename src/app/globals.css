@@ -762,6 +762,12 @@ position: absolute;
 .faq-main-secton-bottom-middle h4{
       font-size: 19px;
 }
+.faq-main-secton-bottom-middle h2{
+      font-size: 19px;
+}
+.faq-main-secton-bottom-middle h3{
+      font-size: 17px;
+}
 .faq-main-secton-bottom-middle ul{
   margin-bottom: 20px;
 }
