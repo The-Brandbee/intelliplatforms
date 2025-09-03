@@ -20,23 +20,18 @@ function IndexPage() {
                 </div>
                  <div className="footer-right">
                     <Image src={Logo} alt="" />
-                    {/* <ul>
+                   <ul>
                       <li>
-                        <Link href="#">Contact Us</Link>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link href="#">Customised Solutions</Link>
+                        <Link href="/terms-of-use">Terms of Use</Link>
                       </li>
                       <li>
-                        <Link href="#">Partner</Link>
+                        <Link href="/data-security">Data Security</Link>
                       </li>
-                      <li>
-                        <Link href="#">About Us</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Resources</Link>
-                      </li>
-                    </ul>*/}
+                      
+                    </ul>
                 </div>
             </div>
             <div className="footer-bottom">

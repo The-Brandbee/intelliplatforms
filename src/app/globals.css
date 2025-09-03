@@ -116,6 +116,8 @@ footer{
 .footer-right ul{
   margin: 0px;
   padding: 0px;
+      margin-top: 32px; 
+
 }
 .footer-right ul li a{
     color: #fff;
