@@ -32,16 +32,16 @@ function IndexPage() {
               <Link href="#">Customised Solutions</Link>
               <Link href="#">Partner</Link> */}
               <Link href="/about-us">About</Link>
-               {/* <Link href="#">Solutions
+               <Link href="#">Solutions
                 <ul>
                   <li>
-                    <Link href="#">Network Engineering and Cloud Operation</Link>
+                    <a href="/solutions">Network Engineering and Cloud Operation</a>
                   </li>
                    <li>
-                    <Link href="#">Our Observability</Link>
+                    <a href="#">Our Observability</a> 
                   </li>
                 </ul>
-               </Link>*/}
+               </Link>
             </ul>
            {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>

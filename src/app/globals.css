@@ -51,7 +51,7 @@ p{
 display: none;
     position: absolute;
     right: 0px;
-    background: #012638;
+    background: #012638f5;
     top: 35px;
     list-style-type: none;
     z-index: 999;
@@ -1145,6 +1145,7 @@ text-align: end;
     line-height: 30px;
     font-size: 17px;
     font-weight: 100;
+        color: #012638;
 }
 .deep_expriene_boxes h6 {
     position: relative;
@@ -2012,6 +2013,7 @@ position: absolute;
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
+        text-decoration: underline;
 }
 .faq-main-secton-heading p{
   color: #fff;

@@ -100,9 +100,7 @@ export default function Home() {
                 </h3>
                 <p>
   <b style={{ color: "#012638", fontFamily: "HelveticaNeueBold" }}>
-    Our promise:
-  </b>
-  straightforward, strategic solutions that make technology work for your
+    Our promise: </b> straightforward, strategic solutions that make technology work for your
   business.
 </p>
               </div>
