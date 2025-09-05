@@ -110,7 +110,7 @@ export default function Home() {
               <div className="deep_expriene_boxes">
                 <h6>
                   Deep experience in networking, observability, and
-                  infrastructure design
+                  infrastructure design.
                 </h6>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="what_we_bring_the_table_second_30_col">
               <div className="deep_expriene_boxes">
                 <h6>
-                  Clear guidance on technology selection and vendor alignment
+                  Clear guidance on technology selection and vendor alignment.
                 </h6>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
             <div className="what_we_bring_the_table_second_30_col">
               <div className="deep_expriene_boxes">
                 <h6>
-                  A client-first approach foucsed on ROI, Efficiency, and scale
+                  A client-first approach foucsed on ROI, Efficiency, and scale.
                 </h6>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function Home() {
                 <p>
                   We’re more than a service provider; we’re a strategic partner.
                   Our work is anchored in a strong set of values that guide
-                  everything we do:
+                  everything we do.
                 </p>
               </div>
             </div>

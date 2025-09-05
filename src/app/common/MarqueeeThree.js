@@ -44,7 +44,7 @@ export default function TestimonialSlide() {
         <Image src={Teamone} alt="" />
         <div className="intelli_leader_team_info">
           <p className="intelli_leader_team_name">Rahul Bajaj</p>
-          <p className="intelli_leader_team_designation">Chief Advisor</p>
+          <p className="intelli_leader_team_designation">Chairman of the Board</p>
         </div>
       </div>
       {/* Team Member 2 (Bottom) */}
@@ -71,7 +71,7 @@ export default function TestimonialSlide() {
         <div className="intelli_leader_team_info">
           <p className="intelli_leader_team_name">Anirban Ghosh</p>
           <p className="intelli_leader_team_designation">
-            Partner, Global Head of Growth and Strategy
+            Global Head of Growth and Strategy
           </p>
         </div>
       </div>
