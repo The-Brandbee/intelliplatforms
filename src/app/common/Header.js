@@ -31,8 +31,17 @@ function IndexPage() {
               {/*  <Link href="#">Resources</Link>
               <Link href="#">Customised Solutions</Link>
               <Link href="#">Partner</Link> */}
-              <Link href="#">About Us</Link>
-              {/*  <Link href="#">Contact Us</Link>*/}
+              <Link href="/about-us">About</Link>
+               {/* <Link href="#">Solutions
+                <ul>
+                  <li>
+                    <Link href="#">Network Engineering and Cloud Operation</Link>
+                  </li>
+                   <li>
+                    <Link href="#">Our Observability</Link>
+                  </li>
+                </ul>
+               </Link>*/}
             </ul>
            {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>

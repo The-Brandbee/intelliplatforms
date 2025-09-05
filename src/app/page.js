@@ -98,7 +98,7 @@ export default function Home() {
 
     </div>
 </section>
-
+<div className="back-main">
 <section className="we_specializi_in_sec">
   <div className="we_specializi_in_container">
     <div className="we_specializi_in_row">
@@ -135,7 +135,7 @@ export default function Home() {
 
      </div>
 </section>
-
+</div>
 
 
 <section className="foot-top-sectto">
