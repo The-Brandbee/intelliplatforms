@@ -91,7 +91,7 @@ export default function Home() {
   </section>
 
   <section className="ingest_optomize_sec">
-  <div className="container">
+  <div className="container--">
 
      <MarqueeTwo /> 
 
@@ -120,7 +120,7 @@ export default function Home() {
 </section>
 <section className="what-defines-our-culture">
     <Image src={FooterTOp} alt="" className="FooterTOp-mfn" />
-     <div className="container">
+     <div className="container--">
          
           
            <div className="what-defines-our-culture-bot">

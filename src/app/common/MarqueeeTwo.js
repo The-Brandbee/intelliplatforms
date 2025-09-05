@@ -26,7 +26,13 @@ import Marquee from "react-fast-marquee";
 export default function TestimonialSlide() {
   return ( 
     <>
-      <Marquee pauseOnHover={false} loop={10} speed={40} direction="left">
+      <Marquee
+  pauseOnHover={true}
+  onMouseEnter={() => console.log("mouseenter")}
+  onMouseLeave={() => console.log("mouseleave")}
+  loop={10}
+  speed={40}
+>
         <div className="ingest_optomize_row">
           
           <div className="ingest_optomize_columns">

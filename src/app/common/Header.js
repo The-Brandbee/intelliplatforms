@@ -31,17 +31,26 @@ function IndexPage() {
               {/*  <Link href="#">Resources</Link>
               <Link href="#">Customised Solutions</Link>
               <Link href="#">Partner</Link> */}
+              <li>
               <Link href="/about-us">About</Link>
-               <Link href="#">Solutions
-                <ul>
-                  <li>
-                    <a href="/solutions">Network Engineering and Cloud Operation</a>
-                  </li>
-                   <li>
-                    <a href="#">Our Observability</a> 
-                  </li>
-                </ul>
-               </Link>
+              </li>
+               <li className="relative group">
+  <Link href="#">
+    Solutions
+  </Link>
+  <ul className="absolute hidden group-hover:block">
+    <li>
+      <Link href="/solutions">
+        Network Engineering and Cloud Operation
+      </Link>
+    </li>
+    <li>
+      <Link href="#">
+        Our Observability
+      </Link>
+    </li>
+  </ul>
+</li>
             </ul>
            {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>

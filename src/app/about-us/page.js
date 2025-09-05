@@ -5,8 +5,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
+import Marquee from "../common/MarqueeeThree.js"; 
 import Footer from "../common/Footer.js";
-import Marquee from "../common/Marqueee.js"; 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
@@ -226,6 +227,8 @@ export default function Home() {
 
   <section className="intelli_leader_team_section">
   <div className="container">
+
+     
     <div className="row intelli_leader_head_row">
       <div className="intelli_leader_head_col">
         <h2>
@@ -237,65 +240,10 @@ export default function Home() {
         </p>
       </div>
     </div>
-    <div className="intelli_leader_team_row">
-      {/* Team Member 1 (Upper) */}
-      <div className="intelli_leader_team_col intelli_leader_team_upper">
-        <Image src={Teamone} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Rahul Bajaj</p>
-          <p className="intelli_leader_team_designation">Chief Advisor</p>
-        </div>
-      </div>
-      {/* Team Member 2 (Bottom) */}
-      <div className="intelli_leader_team_col intelli_leader_team_bottom">
-        <Image src={TeamTwo} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Venkata Dhaniyala</p>
-          <p className="intelli_leader_team_designation">Chief Advisor</p>
-        </div>
-      </div>
-      {/* Team Member 3 (Upper) */}
-      <div className="intelli_leader_team_col intelli_leader_team_upper">
-       <Image src={TeamThree} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Ross Mistretta</p>
-          <p className="intelli_leader_team_designation">
-            Chief Technology &amp; Delivery Officer
-          </p>
-        </div>
-      </div>
-      {/* Team Member 4 (Bottom) */}
-      <div className="intelli_leader_team_col intelli_leader_team_bottom">
-        <Image src={TeamFour} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Anirban Ghosh</p>
-          <p className="intelli_leader_team_designation">
-            Partner, Global Head of Growth and Strategy
-          </p>
-        </div>
-      </div>
-      {/* Team Member 5 (Upper) */}
-      <div className="intelli_leader_team_col intelli_leader_team_upper">
-        <Image src={TeamFive} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Kushal Bothra</p>
-          <p className="intelli_leader_team_designation">
-            Solutions Architect, Observability Business Unit
-          </p>
-        </div>
-      </div>
-      {/* Team Member 6 (Bottom) */}
-      <div className="intelli_leader_team_col intelli_leader_team_bottom">
-         <Image src={TeamSix} alt="" />
-        <div className="intelli_leader_team_info">
-          <p className="intelli_leader_team_name">Deeptanshu J. Bansal</p>
-          <p className="intelli_leader_team_designation">
-            Chief Marketing Officer
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+    <Marquee /> 
+    
+  
 </section>
 </div>
 

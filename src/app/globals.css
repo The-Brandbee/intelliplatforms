@@ -46,20 +46,31 @@ p{
 }
 
 /* si page start*/
-.header-right ul a ul{
+.header-right ul li{
+    list-style-type: none;
+    position: relative;
+}
+.header-right ul li ul{
    
 display: none;
     position: absolute;
     right: 0px;
     background: #012638f5;
-    top: 35px;
+    top: 27px;
     list-style-type: none;
     z-index: 999;
     width: 250px;
     padding: 20px 15px;
     border-radius: 6px;
 }
-.header-right ul a:hover ul{
+.header-right ul li ul li a{
+    color: #fff;
+        padding: 6px 0px;
+}
+.header-right ul li ul li{
+    margin-bottom: 10px;
+}
+.header-right ul li:hover ul{
  display: inline-block;
 }
 .header-right ul a ul li{
@@ -621,7 +632,7 @@ margin-bottom: 30px;
 
 
 .ingest_optomize_columns{
-      width: 340px;
+      width: 370px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -786,6 +797,7 @@ margin-bottom: 30px;
     width: 100%;
     height: 100%;
     top: 0px;
+        background-repeat: no-repeat;
 
 }
 .footer-top-heading h3{
@@ -936,7 +948,7 @@ font-weight: 500;
 
     .intelli_leader_team_col {
     flex: 0 0 auto;
-    width: 23%;
+        width: 250px;
     margin: 0 15px;
     border-radius: 12px;
     overflow: hidden;
