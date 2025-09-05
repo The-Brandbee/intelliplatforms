@@ -66,9 +66,15 @@ display: none;
 .header-right ul li ul li a{
     color: #fff;
         padding: 6px 0px;
+        
+}
+.header-right ul li ul li:last-child{
+     border-bottom: 0px solid #27917F;
 }
 .header-right ul li ul li{
-    margin-bottom: 10px;
+  padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #27917F;
 }
 .header-right ul li:hover ul{
  display: inline-block;
@@ -279,7 +285,16 @@ display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
+.top h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.top h2 span {
+  color: #01C591;
+}
 .capabilities-v2-left h2 {
   font-size: 38px;
   font-weight: 700;
@@ -294,7 +309,7 @@ display: flex;
 .capabilities-v2-right {
   flex: 3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -323,7 +338,7 @@ display: flex;
   width: 100%;
   height: 80%;
   flex-shrink: 0;
-  
+  visibility: hidden;
 }
 
 
@@ -339,6 +354,14 @@ border-radius: 10px;
 .cap-title {
 padding-top: 10px;
   color: #01C591;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  text-align:left;
+}
+.cap-title-b {
+padding-top: 10px;
+  color: #012638;
   font-size: 16px;
   font-weight: 700;
   margin: 0;
@@ -849,7 +872,7 @@ color: #27917F;
     width:30%
 }
 .intelli_what_we_stand_for_right_cont_box{
-    width: 60%;
+    width: 65%;
 }
 .intelli_what_we_stand_for_right_head_box h2 {
     color: white;
@@ -888,14 +911,16 @@ font-weight: 500;
 }
 
 .intelli_what_we_stand_for_right_column_box3 {
-    display: flex
-;
+ width: 100%;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
-    width: 67%;
+}
+.project_based_servies_colums.last{
+    visibility: hidden;
 }
 .intelli_what_we_stand_for_right_column_box3 .project_based_servies_colums{
-    width:50% !important
+    
 }
 .intelli_what_we_stand_for_right_column_box4{
     width: 100%;
@@ -1013,7 +1038,7 @@ font-weight: 500;
     }
 
     .intelli_leader_team_name {
-      font-weight: bold;
+         font-family: HelveticaNeueBold;
       margin: 0;
       font-size: 18px;
       margin-bottom:10px
@@ -1158,6 +1183,7 @@ text-align: end;
     font-size: 17px;
     font-weight: 100;
         color: #012638;
+            font-family: HelveticaNeueLight;
 }
 .deep_expriene_boxes h6 {
     position: relative;
@@ -2055,6 +2081,9 @@ position: absolute;
 }
 
 @media all and (min-width: 120px) and (max-width: 690px){
+    .project_based_servies_colums.last {
+    visibility: inherit;
+}
     .software-as-main-section-middle-main ul li{
         right: auto !important;
     }
@@ -2660,9 +2689,12 @@ content: inherit;
   content: inherit;
 }
 .dropdown.mobilemenu-new .Menu-underLink li a {
-  color: #eb5e26!important;
+  color: #fff!important;
   display: inline-block;
   padding: 8px 0;
+}
+.dropdown.mobilemenu-new .accordion__panel{
+    padding-top: 0px;
 }
 .dropdown.mobilemenu-new .Menu-underLink li{
   list-style-type: none;

@@ -73,11 +73,26 @@ class MobileMenu extends React.Component {
                   */}
 
                   <AccordionItem>
-                  <Link href="/">
+                  <Link href="/about-us">
                       <AccordionItemHeading>
                         <AccordionItemButton>About Us</AccordionItemButton>
                       </AccordionItemHeading>
                       </Link>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>Solutions</AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <div className="Menu-underLink">
+                        <ul>
+                          <li>
+                            <Link href="/our-observability">Our Observability</Link>
+                          </li>
+                         
+                        </ul>
+                      </div>
+                    </AccordionItemPanel>
                   </AccordionItem>
               {/*   <AccordionItem>
                   <Link href="/">

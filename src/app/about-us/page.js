@@ -209,6 +209,12 @@ export default function Home() {
                   <p>Making a meaningful impact on communities</p>
                 </div>
               </div>
+                <div className="project_based_servies_colums last">
+                <div className="project_based_servies_box">
+                  <h6>Social Responsibility</h6>
+                  <p>Making a meaningful impact on communities</p>
+                </div>
+              </div>
             </div>
             <div className="intelli_what_we_stand_for_right_column_box4">
               <div className="our_sucess_columns">

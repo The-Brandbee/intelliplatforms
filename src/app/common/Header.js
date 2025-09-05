@@ -39,15 +39,15 @@ function IndexPage() {
     Solutions
   </Link>
   <ul className="absolute hidden group-hover:block">
-    <li>
-      <Link href="/solutions">
+    {/*  <li>
+      <Link href="#">
         Network Engineering and Cloud Operation
       </Link>
-    </li>
+    </li>*/}
     <li>
-      <Link href="#">
+      <a href="/our-observability">
         Our Observability
-      </Link>
+      </a>
     </li>
   </ul>
 </li>
