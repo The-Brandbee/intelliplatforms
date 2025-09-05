@@ -5,10 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
-
-
 import Footer from "../common/Footer.js";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
