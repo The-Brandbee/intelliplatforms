@@ -87,6 +87,11 @@ class MobileMenu extends React.Component {
                       <div className="Menu-underLink">
                         <ul>
                           <li>
+                            <Link href="/network-engineering-and-cloud-computing">
+        Network Engineering and Cloud Operation
+      </Link>
+                          </li>
+                          <li>
                             <Link href="/our-observability">Our Observability</Link>
                           </li>
                          
