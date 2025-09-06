@@ -39,11 +39,11 @@ function IndexPage() {
     Solutions
   </Link>
   <ul className="absolute hidden group-hover:block">
-    {/*  <li>
-      <Link href="#">
+      <li>
+      <Link href="/network-engineering-and-cloud-computing">
         Network Engineering and Cloud Operation
       </Link>
-    </li>*/}
+    </li>
     <li>
       <a href="/our-observability">
         Our Observability

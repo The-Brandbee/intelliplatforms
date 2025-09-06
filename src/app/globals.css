@@ -606,9 +606,29 @@ padding-top: 10px;
 
 
 /* sist page end */
-
-
-
+.cap-card.first-new{
+        border: 0px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.cap-card.first-new h3{
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.cap-card.first-new h3 span{
+        color: #01C591;
+}
+.bottom-p-content p{
+    margin: 0px;
+    color: #fff;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
 
 /* ================================ CSS NEW 5 Sept =============================== */
 .network-page .intelli_buit_sec_new .home-banner-middle-middle {
@@ -1102,7 +1122,7 @@ font-weight: 500;
     bottom: -110px !important;
 }
 .intelli_second_banner_last_para{
-    width:100%;
+    width:95%;
     color:white
 }
 
@@ -2081,6 +2101,9 @@ position: absolute;
 }
 
 @media all and (min-width: 120px) and (max-width: 690px){
+    .cap-card.first-new{
+        height: auto;
+    }
     .project_based_servies_colums.last {
     visibility: inherit;
 }
