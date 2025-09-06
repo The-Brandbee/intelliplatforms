@@ -99,6 +99,21 @@ display: none;
         background: #012638;
         position: relative;
 }
+.si-pagemidle .container{
+        position: relative;
+    z-index: 1;
+}
+.si-pagemidle{
+    position: relative;
+}
+.si-pagemidle:after {
+    background: url(/_next/static/media/sh-background.95c1aeef.png);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
 .back-main:after {
     background: url(/_next/static/media/sh-background.95c1aeef.png);
     content: "";
