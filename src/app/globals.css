@@ -76,6 +76,16 @@ display: none;
     padding-top: 10px;
     border-bottom: 1px solid #27917F;
 }
+.dropdown.mobilemenu-new .Menu-underLink li {
+    border-bottom: 1px solid #27917F;
+}
+.dropdown.mobilemenu-new .Menu-underLink li:last-child{
+     border-bottom: 0px solid #27917F;
+}
+.dropdown.mobilemenu-new .Menu-underLink ul{
+        padding-left: 10px;
+}
+
 .header-right ul li:hover ul{
  display: inline-block;
 }
