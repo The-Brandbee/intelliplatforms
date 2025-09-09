@@ -45,8 +45,8 @@ function IndexPage() {
       </Link>
     </li>
     <li>
-      <a href="/our-observability">
-        Our Observability
+      <a href="/observability">
+        Observability
       </a>
     </li>
   </ul>

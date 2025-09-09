@@ -92,7 +92,7 @@ class MobileMenu extends React.Component {
       </Link>
                           </li>
                           <li>
-                            <Link href="/our-observability">Our Observability</Link>
+                            <Link href="/observability">Observability</Link>
                           </li>
                          
                         </ul>
