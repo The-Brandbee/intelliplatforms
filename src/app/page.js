@@ -31,12 +31,10 @@ import OptimizerFive from "../app/img/Group 371.svg";
 import OptimizerFour from "../app/img/Group 370.svg";  
 import OptimizerThree from "../app/img/Group 333.svg";  
 import OptimizerTwo from "../app/img/Group 330.svg";  
-  import OptimizerOne  from "../app/img/Group 327.svg";
-  import FooterTOp from "../app/img/border-border.png";  
+import OptimizerOne  from "../app/img/Group 327.svg";
+import FooterTOp from "../app/img/border-border.png";  
 import Banner from "../app/img/Mask-Group-1.png";
-
-
-import SpecializiLeft  from "../app/img/Group 396.png";
+import SpecializiLeft  from "../app/img/Group-396-m.png";
 import SpecializiMiddle from "../app/img/Group397.svg";  
 import SpecializiRight from "../app/img/Group 180.png";
 
