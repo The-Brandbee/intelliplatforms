@@ -69,13 +69,14 @@ export default function Home() {
         <Image src={Banner} alt="" />
         <div className="home-banner-middle-middle">
           <h1 className="intelli_seconf_banner_first_head">
-           BUILT FOR ENTERPRISE . 
+           BUILT FOR THE ENTERPRISE .
           </h1>
           <h1 className="intelli_seconf_banner_second_head">
-         DRIVEN BY EXPERTISE .
+         DRIVEN BY OUR EXPERTISE .
           </h1>
           <p className="intelli_seconf_banner_first_para">
-       Intelli Platforms is a global, full-service Managed IT Services Provider helping businesses succeed in today's fast-changing tech landscape. With over a decade of experience, we deliver solutions that drive innovation, scalability, and operational efficiency.
+  Intelli Platforms is a global, full-service Managed IT Services Provider that drives innovation, scalability, and operational efficiency for its clients. With more than ten years of experience, we guide businesses through the complexities of the modern tech landscape by delivering intelligence-driven solutions built to handle the demands of a transforming world.
+
           </p>
         </div>
         <div className="home-banner-middle-middle-botto-heading">
@@ -83,7 +84,7 @@ export default function Home() {
             SIMPLIFYING COMPLEXITY. <span>DELIVERING VALUE.</span>
           </h3>
           <p className="intelli_second_banner_last_para">
-          Technology decisions can be overwhelming, especially with so many platforms, pricing models, and service levels to navigate. That’s where we come in. At Inteli, we help clients cut through the noise and focus on what matters: value, fit, and future readiness.
+          Technology decisions can be overwhelming, especially with so many platforms, pricing models, and service levels to navigate. That’s where we come in. At Intelli, we help our clients maximize their existing software investments, ensuring solutions are optimally (re)configured, implemented, or updated reducing exposure to unnecessary costs.
           </p>
         </div>
       </div>
@@ -143,7 +144,7 @@ export default function Home() {
   <div className="container">
    <div className="footer-top-heading-n-b">
          <h3>WHY <span>INTELLI PLATFORMS</span></h3>
-         <p>At Intelli, we don't just support IT, we solve for it. Whether you’re navigating the maze of enterprise technology, building your next-gen platform, or scaling global operations, we're the partner who brings clarity, speed, and results.</p>
+         <p>At Intelli, we don't just support IT, we solve for it. Whether you’re navigating the maze of enterprise technology, building your next-gen platform, or scaling global operations, we're the partner whose data-driven intelligence delivers solutions with the precision, integrity, and speed required at scale. </p>
     </div>
     </div>
   <Image src={FooterTOp} alt="" />
