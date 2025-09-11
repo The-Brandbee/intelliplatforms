@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+import HubSpotFormpopup from "../common/HubSpotFormpopup.js";
 
 import Logo from "../img/white-logo.png";
 function IndexPage() {
@@ -13,9 +14,8 @@ function IndexPage() {
                 <div className="footer-left">
                     <h3>Sign up for <span>email updates</span></h3>
                     <p>We align with your goals to deliver measurable, business-driven outcomes.</p>
-                    <form>
-                      <input type="text" placeholder="Email" className="text-from"/>
-                    </form>
+                   
+                    <HubSpotFormpopup/>
                       {/* <Image src={Logo} alt="" />*/}
                 </div>
                  <div className="footer-right">

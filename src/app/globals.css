@@ -44,6 +44,13 @@ p{
     line-height: 29px;
     letter-spacing: 1.3px;
 }
+#hubspot-form  {
+  height: 210px;
+    position: relative;
+    overflow: hidden;
+    top: -35px;
+    left: -33px;
+}
 
 /* si page start*/
 .header-right ul li{
@@ -2124,8 +2131,17 @@ position: absolute;
 .faq-main-secton-heading{
   text-align: center;
 }
+#hubspot-form{
+        width: 80%;
+}
 
 @media all and (min-width: 120px) and (max-width: 690px){
+    #hubspot-form{
+        width: 100%;
+}
+    #hubspot-form {
+    height: 185px;
+    }
     .cap-card.first-new{
         height: auto;
     }
