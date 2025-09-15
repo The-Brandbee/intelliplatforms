@@ -48,21 +48,15 @@ export default function Arfactoring() {
     <div className="contact-us-page-middle-middle">
       <div className="contact-us-page-middle-middle-left">
         <h4>
-          Connect{" "}
-          <span>
-            with Our <br />
-            Funding Specialists
-          </span>
+         Let's Start the Conversation
+
         </h4>
         <p>
-          Explore funding opportunities or get your questions answered with
-          ease. Access quick funding, grow your business, and discover your
-          eligibility effortlessly. No complications—just solutions to meet your
-          needs. Get started today!
+         Connect with Intelli Platforms to explore solutions, request a consultation, or discuss how we can support your business goals.
         </p>
       </div>
       <div className="contact-us-page-middle-middle-right">
-        <h4>Start your application now</h4>
+        <h4>Powered By Intelligence Get</h4>
         <p>All fields are required*</p>
         <div className="contact-us-page-middle-middle-right-from">
           <div className="contact-us-middle-main-m-right-middle">
