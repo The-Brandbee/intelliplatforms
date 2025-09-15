@@ -2134,7 +2134,55 @@ position: absolute;
 #hubspot-form{
         width: 80%;
 }
-
+.contact-us-page-middle {
+    padding: 30px 0;
+    overflow: hidden; 
+}
+.contact-us-page-middle-middle {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us-page-middle-middle-left {
+    width: 40%;
+}
+.contact-us-page-middle-middle-right {
+        width: 55%;
+    background: #D8D8D8;
+    padding: 20px;
+    border-radius: 5px;   
+}
+.contact-us-page-middle-middle-left h4 {
+    color: #fff;
+    font-size: 42px;         
+}  
+.contact-us-page-middle-middle-left p {
+    color: #fff;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.contact-us-page-middle-middle-right h4 {
+    color: #000;
+    font-size: 30px;
+}
+.contact-us-page-middle-middle-right p {
+    color: #000;
+}
+.contact-us-page-main-from .form-control {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    height: 45px;
+    margin-bottom: 22px;
+}
+.contact-us-page-main-from .btn.btn-default {
+    background: #01C591;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 @media all and (min-width: 120px) and (max-width: 690px){
     #hubspot-form{
         width: 100%;
