@@ -56,7 +56,7 @@ export default function Arfactoring() {
         </p>
       </div>
       <div className="contact-us-page-middle-middle-right">
-        <h4>Powered By Intelligence Get</h4>
+        <h4>Get Powered By Intelligence </h4>
         <p>All fields are required*</p>
         <div className="contact-us-page-middle-middle-right-from">
           <div className="contact-us-middle-main-m-right-middle">
