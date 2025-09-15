@@ -2184,6 +2184,30 @@ position: absolute;
     margin-bottom: 20px;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+    .contact-us-page-middle-middle-right {
+    width: 100%;
+   
+}
+.contact-us-page-middle-middle-left p {
+   
+    margin-top: 15px;
+    padding-left: 0px;
+}
+.contact-us-page-middle-middle-right h4 {
+    color: #000;
+    font-size: 22px;
+}
+.contact-us-page-middle-middle-left h4 {
+  
+    font-size: 24px;
+}
+    .contact-us-page-middle-middle {
+    display: inline-block;
+    justify-content: space-between;
+}
+.contact-us-page-middle-middle-left {
+    width: 100%;
+}
     #hubspot-form{
         width: 100%;
 }
