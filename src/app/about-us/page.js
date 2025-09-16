@@ -231,7 +231,7 @@ export default function Home() {
     </div>
   </section>
 
-  <section className="intelli_leader_team_section">
+  <section className="intelli_leader_team_section newadd">
   <div className="container">
 
      

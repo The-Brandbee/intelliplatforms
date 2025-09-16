@@ -95,6 +95,7 @@ export default function TestimonialSlide() {
           </p>
         </div>
       </div>
+      
     </div>
       </Marquee>
     </>

@@ -2184,6 +2184,12 @@ position: absolute;
     margin-bottom: 20px;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+     
+    .intelli_leader_team_name{
+        
+    font-size: 14px;
+            line-height: normal;
+    }
     .contact-us-page-middle-middle-right {
     width: 100%;
    
@@ -2287,9 +2293,9 @@ position: absolute;
     width: 100%;
     margin-bottom: 40px;
 }
-    .intelli_leader_team_col{
-        width: 60%;
-    }
+   .intelli_leader_team_section.newadd .intelli_leader_team_col{
+        width: 150px; 
+   }
     .intelli_what_we_stand_for_right_column_box1 {
     display: inline-block;
     justify-content: space-between;
