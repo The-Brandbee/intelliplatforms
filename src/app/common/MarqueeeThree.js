@@ -17,7 +17,7 @@ import OptimizerOne from "../img/Group 327.svg";
 import OptimizerNine from "../img/Group 379.svg"; 
 import MONITORINGTL from "../img/DEEP-2.png";  
 import OptimizerEight from "../img/Group 377.svg";
-import OptimizerSeven from "../img/Group 375.svg";
+import TeamSixx from "../img/Amit.png";
 import Teamone from "../img/Group 277@2x.png";  
 import TeamTwo from "../img/Group 282.png";  
 import TeamThree from "../img/Group 281.png";  
@@ -92,6 +92,21 @@ export default function TestimonialSlide() {
           <p className="intelli_leader_team_name">Deeptanshu J. Bansal</p>
           <p className="intelli_leader_team_designation">
             Chief Marketing Officer
+          </p>
+        </div>
+      </div>
+
+
+       {/* Team Member 6 (Bottom) */}
+      <div className="intelli_leader_team_col intelli_leader_team_upper">
+         <Image src={TeamSixx} alt="" />
+        <div className="intelli_leader_team_info">
+          <p className="intelli_leader_team_name">Amit Gupta
+</p>
+          <p className="intelli_leader_team_designation">
+         Legal Advisor
+
+
           </p>
         </div>
       </div>
