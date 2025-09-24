@@ -102,7 +102,7 @@ export default function Home() {
           
           <h1 className="intelli_seconf_banner_second_head">OBSERVABILITY</h1>
           <p className="intelli_seconf_banner_first_para">
-         Driving end-to-end visibility, reliability, and performance across modern digital ecosystems.
+         Assuring end-to-end visibility, reliability, and performance across modern digital ecosystems.
           </p>
         </div>
         <div className="home-banner-middle-middle-botto-heading">
@@ -110,7 +110,8 @@ export default function Home() {
           ENGINEERING <br/> <span>INTELLIGENCE AT SCALE</span>
           </h3>
           <p className="intelli_second_banner_last_para">
-          A global fellowship of 200+ certified network engineers delivering precision-driven, scalable, and cost-effective solutions. Trusted by enterprises to modernize network infrastructure and observability layers in real time. </p>
+         A global fellowship of 200+ infrastructure and application certified engineers we're focused on value density, creating outsized impact with minimal overhead. Trusted by enterprises, we accelerate network modernization and observability initiatives, packing a high volume of expertise into every solution to deliver precision-driven, scalable, and cost-effective results.
+          </p>
         </div>
       </div>
     </div>
@@ -139,12 +140,12 @@ export default function Home() {
       <div className="cap-card-hover">
         <h3 className="cap-title-b">Strategic & Advisory Services</h3>
         <p>
-          High-level consulting to align monitoring and observability strategy with business goals.
+        High-level consulting to align monitoring & alerting, observability strategies with business goals.
         </p>
         <ul>
           <li>Observability maturity assessments to identify gaps and create roadmaps</li>
-          <li>Tool selection and rationalization to reduce cost and complexity</li>
-          <li>Advisory on best-fit platforms (Splunk, Dynatrace, others)</li>
+          <li>Tool rationalization and selection to reduce complexity introduce cohesion and balance expenditures.</li>
+          <li>Advisory on best-fit platforms (Splunk, Dynatrace, Nexthink, others)</li>
         </ul>
       </div>
     </div>
@@ -160,9 +161,9 @@ export default function Home() {
          Hands-on technical delivery of monitoring and observability platforms.
         </p>
         <ul>
-          <li>Full-scale deployment and configuration across environments</li>
-          <li>Agent instrumentation for APM, distributed tracing, and real-user monitoring</li>
-          <li>Custom dashboards and intelligent, context-aware alerting</li>
+          <li>Deployment of prescribed precision monitoring configurations across environmental tiers at scale.</li>
+          <li>Integration of optimized point solutions to provided alert quality to the event management pipeline for automation and/or escalation.</li>
+          <li>Custom, intelligent rich dashboards engrained with context-aware notifications (alerts).</li>
          
         </ul>
       </div>
@@ -172,16 +173,17 @@ export default function Home() {
       <div className="cap-card-img">
       <Image src={CardThree} alt="" />
       </div>
-      <h3 className="cap-title">Managed Services & Optimization</h3>
+      <h3 className="cap-title">Platform Optimization & Managed Services</h3>
       <div className="cap-card-hover">
-        <h3 className="cap-title-b">Managed Services & Optimization</h3>
+        <h3 className="cap-title-b">Platform Optimization & Managed Services</h3>
         <p>
-         Ongoing support and continuous improvement for long-term reliability.
+         Provide direct or indirect Reliability Service Offerings to ensure continuity of deployed Observability (monitoring) assets, ensuring absolute capability per vendor release cycles.
         </p>
         <ul>
           <li>24/7 platform management and support</li>
-          <li>Observability-as-a-Service model</li>
-          <li>Continuous optimization, upgrades, and performance tuning</li>
+          <li>Observability-as-a-Service Model</li>
+          <li>Continuous review of monitoring integrity focusing on effectiveness and optimization</li>
+          <li>Iterative review(s) of foundational platform components to ensure security, compliance and capability</li>
           <li>Site Reliability Engineering (SRE) augmentation for system reliability</li>
         </ul>
       </div>
@@ -219,17 +221,14 @@ export default function Home() {
     {/* Left */}
     <div className="toolbox-left">
       <h2>
-        SOFTWARE-AS-A-SERVICE <br />
-        <span>TOOLBOX</span>
+       SOFTWARE-AS-A-SERVICE <br/>VENDOR-ALIGNED TOOLS! A UNIQUE<br/> TOOLBOX OF CAPABILITY<br/> TO FURTHER EXTEND THE LEADING<br/> <span>OBSERVABILTY VENDOR OFFERINGS! </span> 
+
       </h2>
     </div>
     {/* Right */}
     <div className="toolbox-right">
       <p>
-        Our Toolbox delivers precision controls to manage ingest, users, and
-        monitoring integrity. Enhancing signal fidelity and optimizing
-        configurations, it helps enterprises align observability with their
-        unique operating model.
+       Our Toolboxs deliver precision controls to manage cost (ingest & users), monitoring integrity and fidelity of signal. Enhancing data-driven outcomes by significantly reduing alert fatigue, helping enterprises align observability with their ever changing ecosysmtes while preserving their unique operating models.
       </p>
     </div>
   </div>
@@ -364,7 +363,7 @@ export default function Home() {
   <div className="container">
 
     <div className="footer-top-heading">
-       <h3>Let's build what's next. <span>Together.</span></h3>
+       <h3 className="nnf">We are Powered by Intelligence. Its time to build what's next. <span>Together.</span></h3>
     </div>
 
   </div>

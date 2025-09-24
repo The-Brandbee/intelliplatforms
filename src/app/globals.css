@@ -353,7 +353,7 @@ display: flex;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  height: 400px;
+  height: 470px;
   display: flex;
   padding: 15px;
   flex-direction: column;
@@ -412,12 +412,13 @@ padding-top: 10px;
   overflow: hidden;
 }
 .cap-card-hover p {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 10px;
+   font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
 .cap-card-hover li {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -878,6 +879,9 @@ margin-bottom: 30px;
 .footer-top-heading h3{
     font-size: 35px;
         font-style: italic;
+}
+.footer-top-heading h3.nnf{
+  font-size: 26px; 
 }
 .footer-top-heading h3 span{
 color: #27917F;
@@ -2469,6 +2473,9 @@ position: absolute;
     .footer-top-heading h3 {
     font-size: 18px;
     }
+    .footer-top-heading h3.nnf{
+  font-size: 16px; 
+}
     .footer-top-heading-n-b p{
         margin-bottom: 40px;
     }
