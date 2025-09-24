@@ -120,11 +120,13 @@ export default function Home() {
 <section className="si-pagemidle">
 
      <div className="container">
-      <div className="top">
-         <h2>
-      CAPABILITIES THAT DRIVE <span>RESULTS</span>
+  <div className="top">
+    <h2>
+        CAPABILITIES THAT DRIVE <span>RESULTS</span>
     </h2>
-      </div>
+  </div>
+
+
   <div className="capabilities-v2">
   {/* Left Side */}
   
