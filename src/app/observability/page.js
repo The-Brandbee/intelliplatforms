@@ -72,6 +72,18 @@ import softwareNineHover from "../img/Group 354-1.png";
 import softwareTen from "../img/Group 353.png";
 import softwareTenHover from "../img/Group 353-1.png"; 
 
+
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+  } from 'react-accessible-accordion';
+  
+  // Demo styles, see 'Styles' section below for some notes on use.
+  import 'react-accessible-accordion/dist/fancy-example.css';
+
 export default function Home() {
   return (
     <div className="network-page">     
@@ -125,9 +137,107 @@ export default function Home() {
         CAPABILITIES THAT DRIVE <span>RESULTS</span>
     </h2>
   </div>
+ <div className="faq-section-main-section">
+      
+        <div className="faq-section-main-section-middle nd-page">
+                 
+            <Accordion preExpanded={['a']}>
+            <AccordionItem uuid={'a'} >
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Strategic & Advisory Services
 
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className="phase-main-middle-frame">
+                       <p>
+        High-level consulting to align monitoring & alerting, observability strategies with business goals.
+        </p>
+        <ul>
+          <li>Observability maturity assessments to identify gaps and create roadmaps</li>
+          <li>Tool rationalization and selection to reduce complexity introduce cohesion and balance expenditures.</li>
+          <li>Advisory on best-fit platforms (Splunk, Dynatrace, Nexthink, others)</li>
+        </ul>
+                     </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'b'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Implementation & Integration Services </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame PHASE-2">
+                <p>
+         Hands-on technical delivery of monitoring and observability platforms.
+        </p>
+        <ul>
+          <li>Deployment of prescribed precision monitoring configurations across environmental tiers at scale.</li>
+          <li>Integration of optimized point solutions to provided alert quality to the event management pipeline for automation and/or escalation.</li>
+          <li>Custom, intelligent rich dashboards engrained with context-aware notifications (alerts).</li>
+         
+        </ul>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'c'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Platform Optimization & Managed Services</h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+                <p>
+         Provide direct or indirect Reliability Service Offerings to ensure continuity of deployed Observability (monitoring) assets, ensuring absolute capability per vendor release cycles.
+        </p>
+        <ul>
+          <li>24/7 platform management and support</li>
+          <li>Observability-as-a-Service Model</li>
+          <li>Continuous review of monitoring integrity focusing on effectiveness and optimization</li>
+          <li>Iterative review(s) of foundational platform components to ensure security, compliance and capability</li>
+          <li>Site Reliability Engineering (SRE) augmentation for system reliability</li>
+        </ul>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'d'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3> Specialized & Advanced Services
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+              
+        <p>Tailored, high-value services to meet unique enterprise needs.</p>
+        <ul>
+          <li>Custom application, integration, and extension development</li>
+          <li>Advanced platform enhancements to unlock new capabilities</li>
+          <li>
+            Bespoke solutions designed for complex, industry-specific requirements
+          </li>
+        </ul>
 
-  <div className="capabilities-v2">
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+              
+            
+        </Accordion>
+   
+        </div>
+     </div>
+
+  <div className="capabilities-v2" style={{ display: "none" }}> 
   {/* Left Side */}
   
   {/* Right Side Grid */}

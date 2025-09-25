@@ -1152,6 +1152,92 @@ font-weight: 500;
 .intelli_second_banner_last_head span{
     color:#01C591 !important
 }
+.faq-section-main-section-heading h3{
+     color:#fff !important;
+     margin-bottom: 50px;
+}
+.faq-section-main-section-middle{
+        width: 80%;
+    margin: 0 auto;
+}
+.faq-section-main-section-middle .accordion__button {
+    background-color: #01C591;
+        border-radius: 20px;
+}
+.faq-section-main-section-middle .accordion__button:before {
+    position: absolute;
+    right: 15px;
+    bottom: 29px;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    background: url(../app/img/arrow-down-circle-fill.png);
+    border: 0;
+    background-position: 100%;
+    width: 150px;
+    height: 60px;
+    transform: rotate(0deg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    bottom: 0;
+}
+.faq-section-main-section-middle.nd-page{
+  padding-bottom: 50px;
+}
+.faq-section-main-section-middle .accordion__button[aria-expanded=true]:before {
+    background: url(../app/img/arrow-down-circle-fill-n.png);
+    border: 0;
+    background-position: 100%;
+    width: 150px;
+    height: 60px;
+    transform: rotate(0deg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    bottom: 0;
+}
+.faq-section-main-section-middle .accordion__item{
+       position: relative;
+    border: 1px solid #01c591;
+    border-radius: 22px;
+          
+}
+.faq-section-main-section-middle .accordion__button:hover {
+    background-color: #01C591;
+}
+.faq-section-main-section-middle .accordion__button[aria-expanded="true"] {
+     background-color: transparent;
+ 
+}
+.faq-section-main-section-middle .accordion__button[aria-expanded="true"] h3{
+    color: #01C591;
+}
+.faq-section-main-section-middle .accordion__panel p{
+    color: #fff;
+}
+.faq-section-main-section-middle .accordion__panel ul{
+    padding-left: 20px;
+}
+.faq-section-main-section-middle .accordion__panel ul li{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.faq-section-main-section-middle h3{
+       color: #012638;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.faq-section-main-section-middle .accordion__item + .accordion__item {
+border-top: 0px solid rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    border: 1px solid #01C591;
+    background: #012638;    
+}
+.faq-section-main-section-middle .accordion__panel{
+ padding-top: 0px;
+}
+.faq-section-main-section-heading h3 span{
+     color:#01C591 !important
+}
 
 .intelli_buit_sec_new .home-banner-middle-middle-botto-heading {
     position: absolute;
@@ -2188,6 +2274,13 @@ position: absolute;
     margin-bottom: 20px;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+    .faq-section-main-section-middle .accordion__button:before{
+        right: 0px;
+    }
+    .top h2 {
+    font-size: 25px;
+    padding-top: 30px;
+    }
      
     .intelli_leader_team_name{
         

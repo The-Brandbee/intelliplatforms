@@ -72,6 +72,19 @@ import softwareNineHover from "../img/Group 354-1.png";
 import softwareTen from "../img/Group 353.png";
 import softwareTenHover from "../img/Group 353-1.png"; 
 
+
+
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+  } from 'react-accessible-accordion';
+  
+  // Demo styles, see 'Styles' section below for some notes on use.
+  import 'react-accessible-accordion/dist/fancy-example.css';
+
 export default function Home() {
   return (
     <div className="network-page">     
@@ -124,8 +137,184 @@ export default function Home() {
 <section className="si-pagemidle">
 
      <div className="container">
+
+
+     <div className="faq-section-main-section">
+      <div className="faq-section-main-section-heading">
+          <h3>OUR CAPABILITIES <span>AT A GLANCE</span></h3>   
+      </div>
+        <div className="faq-section-main-section-middle">
+                 
+            <Accordion preExpanded={['a']}>
+            <AccordionItem uuid={'a'} >
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Network Engineering as a Service (NEaaS)
+
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className="phase-main-middle-frame">
+                      <p>
+        Flexible access to certified engineers for end-to-end network support.
+        </p>
+        <ul>
+          <li>Multi-vendor expertise: Cisco, Juniper, Fortinet, Palo Alto, Arista</li>
+          <li>On-demand L1, L2, L3 engineers</li>
+          <li>WAN, LAN, SD-WAN, wireless, and data center support</li>
+        </ul>
+                     </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'b'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Cloud & Edge Network Modernization </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame PHASE-2">
+                <p>
+         Modernizing infrastructure for cloud migration and hybrid readiness.
+        </p>
+        <ul>
+          <li>Network architecture redesign for cloud migration</li>
+          <li>VPN, Direct Connect, and ExpressRoute implementations</li>
+          <li>Secure connectivity across AWS, Azure, and GCP</li>
+          <li>Hybrid and multi-cloud optimization</li>
+         
+        </ul>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'c'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3>Observability Enablement</h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+                <p>
+       Delivering real-time insights to ensure reliability and performance.
+        </p>
+        <ul>
+          <li>Full-stack observability across leading APM and monitoring tools</li>
+          <li>Metrics, Events, Logs, Traces (MELT) orchestration</li>
+          <li>Dashboarding and alerting via real-time analytics</li>
+          <li>Network insight through telemetry, SNMP traps, and flow analysis</li>
+        </ul>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem uuid={'d'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3> Staffing & Resource Augmentation
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+               <p>Flexible staffing solutions to extend client capabilities.</p>
+        <ul>
+          <li>Contract, contract-to-hire, or full-time resources</li>
+          <li>Dedicated agile pods for project execution</li>
+          <li>
+            U.S. onshore + offshore hybrid delivery models
+          </li>
+          <li>ITIL-compliant workflows</li>
+        </ul>
+
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+              <AccordionItem uuid={'e'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3> Managed NOC Services
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+               <p>Comprehensive, global support from a centralized NOC.</p>
+        <ul>
+          <li>24×7 operations with worldwide coverage</li>
+          <li>Tiered support: L1 (alerts), L2 (diagnostics), L3 (resolution & escalation)</li>
+          <li>
+            SLA-driven incident and problem management
+          </li>
+          <li>ITIL-compliant workflows</li>
+        </ul>
+
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+              <AccordionItem uuid={'f'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3> Compliance & Security Hardening
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+                 <p>Ensuring networks are secure, compliant, and resilient.</p>
+        <ul>
+          <li>Network audits and vulnerability assessments</li>
+          <li>Secure baseline configurations</li>
+          <li>
+            Continuous monitoring and compliance reporting (NIST, SOC2, ISO)
+          </li>
+          
+        </ul>
+
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+             <AccordionItem uuid={'y'}>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                    <h3> Project-Based Services
+                    </h3>
+                      
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className="phase-main-middle-frame">
+                <p>Specialized services to manage transitions and upgrades.</p>
+        <ul>
+          <li>New site deployments, upgrades, and migrations</li>
+          <li>Equipment refresh & lifecycle management</li>
+          <li>
+            Network documentation and runbooks
+          </li>
+          <li>Decommissioning and clean-up projects</li>
+          
+        </ul>
+
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+             <div className="bottom-p-content">
+    <p>From strategy to execution, Intelli delivers the expertise and scale needed to keep your networks secure, agile, and always-on.</p>
+</div>
+        </div>
+     </div>
+
+
+
       
-  <div className="capabilities-v2">
+<div className="capabilities-v2" style={{ display: "none" }}>
   {/* Left Side */}
   
   {/* Right Side Grid */}
@@ -278,9 +467,7 @@ export default function Home() {
   </div>
 </div>
 
-<div className="bottom-p-content">
-    <p>From strategy to execution, Intelli delivers the expertise and scale needed to keep your networks secure, agile, and always-on.</p>
-</div>
+
 </div>
 </section>
 
