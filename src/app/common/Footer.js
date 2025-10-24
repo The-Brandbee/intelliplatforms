@@ -24,9 +24,7 @@ function IndexPage() {
                       <li>
                         <Link href="/privacy-policy">Privacy Policy</Link>
                       </li>
-                      <li>
-                        <Link href="/terms-and-conditions">Terms and Conditions</Link>
-                      </li>
+                      
                       <li>
                         <Link href="/terms-of-use">Terms of Use</Link>
                       </li>
