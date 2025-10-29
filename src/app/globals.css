@@ -53,6 +53,74 @@ p{
 }
 
 /* si page start*/
+.eading-fin li{
+    margin-bottom: 10px;
+}
+.eading-fin{
+    
+}
+.leading-financial-institutions-middle{
+            margin: 35px 0px;
+       } 
+       .border-imhg img{ 
+width: 100%;
+height: auto;
+       } 
+.eading-fin li span{
+       color: #012638;
+    /* font-family: HelveticaNeueBold; */
+    /* font-size: 16px; */
+    font-weight: bold;  
+}
+.eading-fin li::marker {
+  color: #27917F; /* change bullet color */
+ 
+}
+.leading-financial-institutions-heading h3{
+  color: #012638;
+    line-height: 40px;
+}
+.leading-financial-institutions-heading h3 span{
+    color: #27917F;
+}
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM{
+margin-top: 60px;
+}  
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul{
+width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li {
+    width: 32%;  
+    margin-bottom: 20px;
+}
+.leading-financial-institutions-left{
+        display: flex;
+      
+}
+.leading-financial-institutions-left-l{
+    width: 50%;
+}
+.leading-financial-institutions-right{
+    width: 50%;
+}
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li img{
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+}   
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li:nth-child(2) img{
+        width: 75px;
+}
+.Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li p{
+    color: #01C591;
+        font-family: HelveticaNeueBold;
+}
+.intelli_buit_sec_new  .home-banner-middle-middle-botto-heading.TRANSFORMATION{
+    bottom: -230px !important;
+}
 .header-right ul li{
     list-style-type: none;
     position: relative;
