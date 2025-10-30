@@ -53,6 +53,144 @@ p{
 }
 
 /* si page start*/
+.last-content-main{
+    margin-bottom: 50px;
+}
+.last-content-main-middle h5{
+        color: #012638;
+    font-style: italic;
+}
+.bsi-number-frame-middle ul li{
+  border: 2px solid #01C591;
+  width: 23%;    
+  padding: 20px; 
+      border-radius: 8px;   
+      padding-bottom: 35px;                 
+}
+.bsi-number-frame-middle ul li h5{
+  color: #01C591;
+      font-size: 32px;
+}
+.bsi-number-frame-middle ul li h6{
+    color: #012638;
+    margin-top: 20px;
+}
+.bsi-number-frame-middle ul li h5 span{
+    color: #012638;
+        font-size: 1rem;
+}
+.bsi-number-frame-middle ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 60px;
+    margin-bottom: 50px;      
+}
+.expertise-across-key-platforms-middle ul{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px;
+    list-style-type: none;
+        margin-top: 50px;
+}
+.expertise-across-key-platforms-middle ul li{
+   width: 23%;
+       font-size: 18px;
+}
+.expertise-across-key-platforms-middle h3 span{
+    color: #01C591 !important;
+}
+.expertise-across-key-platforms-middle ul li h5{
+    color: #01C591;
+    font-size: 17px;
+}
+.expertise-across-key-platforms-middle ul li p{
+    color: #fff;
+}
+.expertise-across-key-platforms-middle h3{
+    color: #fff !important;
+}
+.expertise-across-key-platforms{
+    background:url(../app/img/3d-render-modern-background.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 120px;  
+}
+.a-force-multiplier{
+        margin-top: 160px;
+}
+.a-force-multiplier .defines-po-img {
+    right: 11.5px;
+    top: -107px;
+}
+.defines-po-img img{
+    width: 380px;
+    height: auto;
+}
+.a-force-multiplier .container{
+    position: relative;
+}
+.Our-GSI-Partners{
+    margin-bottom: 50px;
+}
+.a-force-multiplier-middle-right h4{
+    color: #01C591 !important;
+    font-size: 16px;
+}
+.a-force-multiplier-middle-right ul{
+    padding-left: 20px;      
+}
+.a-force-multiplier-middle-right ul li{
+  color: #fff;
+}
+.a-force-multiplier-middle-left{
+    width: 47%;
+}
+.a-force-multiplier-middle-right{
+    width: 47%;
+}
+.a-force-multiplier-middle{
+    display: flex;
+    justify-content: space-between;
+    background: #012638;
+    border-radius: 10px;
+    margin-bottom: 60px;
+        padding: 50px;  
+            border-top-right-radius: 0px;
+} 
+.a-force-multiplier-middle-left h3{
+    color: #fff !important;
+}
+.a-force-multiplier-middle-left h5{
+    color: #01C591 !important;
+}
+.a-force-multiplier-middle-left img{
+    width: 100%;
+    height: auto;
+        margin-top: 15px;
+}
+.financial-infrastructure-frame{
+        margin-top: 60px;
+    margin-bottom: 60px;
+}
+.financial-infrastructure-frame-middle{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.financial-infrastructure-frame-middle-left{
+    width: 40%;
+}
+.financial-infrastructure-frame-middle-right{
+    width: 55%;
+}
+.financial-infrastructure-frame-middle-right img{
+    width: 100%;
+    height: auto;
+}
 .eading-fin li{
     margin-bottom: 10px;
 }
@@ -79,6 +217,10 @@ height: auto;
 .leading-financial-institutions-heading h3{
   color: #012638;
     line-height: 40px;
+}
+.leading-financial-institutions-heading h5{
+    color: #012638;
+        font-size: 16px;
 }
 .leading-financial-institutions-heading h3 span{
     color: #27917F;
@@ -2342,6 +2484,107 @@ position: absolute;
     margin-bottom: 20px;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+    .Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li img{
+        margin-bottom: 10px;
+    }
+    .leading-financial-institutions-heading h3 br{
+        display: none;
+    }
+    .si-pagemidle br{
+        display: none;
+    }
+    .leading-financial-institutions-heading h3 br{
+        display: none;
+    }
+    .si-pagemidle {
+       padding-bottom: 40px;
+    }
+    .home-banner-middle-middle-botto-heading h3 br{
+        display: none;
+    }
+    .leading-financial-institutions-middle {
+    margin: 20px 0px;
+}
+.financial-infrastructure-frame-middle {
+    display: inline-block;
+    width: 100%;
+}
+.financial-infrastructure-frame-middle-left {
+    width: 100%;
+}
+.financial-infrastructure-frame {
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+.financial-infrastructure-frame-middle-right {
+    width: 100%;
+}
+.a-force-multiplier {
+    margin-top: 0px;
+}
+.a-force-multiplier .defines-po-img{
+    display: none;  
+}
+.a-force-multiplier-middle {
+    display: inline-block;
+    width: 100%;
+}
+.a-force-multiplier-middle-left {
+    width: 100%;
+}
+.a-force-multiplier-middle-right {
+    width: 100%;
+    margin-top: 40px;
+}
+.Our-GSI-Partners {
+    margin-bottom: 20px;
+}
+.expertise-across-key-platforms-middle ul {
+    display: inline-block;
+    width: 100%;
+}
+.expertise-across-key-platforms-middle ul li {
+    width: 100%;
+    font-size: 18px;
+}
+.bsi-number-frame-middle ul {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bsi-number-frame-middle ul li{
+        width: 100%;
+        margin-bottom: 20px;
+}
+.expertise-across-key-platforms{
+        padding-top: 30px;
+    padding-bottom: 30px;
+}
+.expertise-across-key-platforms-middle ul{
+    margin-top: 30px;
+}
+    .Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.leading-financial-institutions-left {
+    display: inline-block;
+    width: 100%;
+}
+.leading-financial-institutions-left-l {
+    width: 100%;
+}
+.leading-financial-institutions-right {
+    width: 100%;
+}
+
+    .intelli_buit_sec_new.nb .home-banner-middle-middle-botto-heading.TRANSFORMATION {
+    bottom: 0px ! IMPORTANT;
+}
+    .network-page .intelli_seconf_banner_first_head br{
+        display: none;
+    }
     .faq-section-main-section-middle .accordion__button:before{
         right: 0px;
     }

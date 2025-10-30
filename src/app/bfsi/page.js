@@ -6,12 +6,12 @@ import Link from "next/link";
 import Header from "../common/Header.js";
 import HeaderMobileIn from "../common/HeaderMobile.js";
 import Footer from "../common/Footer.js";
-import Marquee from "../common/Marqueee.js"; 
+import Maquee from "../common/MarqueeeNew.js"; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
 import Map from "../img/map.png";   
-import bordercut from "../img/border-cut.webp";  
+import bordercut from "../img/cut.png";  
 import banner from "../img/home-banner.png";
 import apart from "../img/Mask-Group-3.png";
 import sets from "../img/Group-273.png";
@@ -32,8 +32,8 @@ import IconFive from "../img/ACROSS-3.png";
 import IconSix from "../img/ACROSS-4.png";  
 import Border from "../img/borderdot.png"; 
 import STANDFOR from "../img/shutterstock_2281049609.png";  
-import boyNT from "../img/inteli_second_large_slept.png";  
-import boyN from "../img/shutterstock_1419431318@2x.png";  
+import Right from "../img/shutterstock_2282746085.png";  
+import BUILDINGOne from "../img/shutterstock_1419431318.png";  
 import Banner from "../img/bfsi-banner.png";  
 import CustomerOnneTfoy from "../img/built-new-43.png";
 
@@ -72,7 +72,7 @@ export default function Home() {
 
 <>
   {/* banner sec */}
-  <section className="home-banner intelli_buit_sec_new">
+  <section className="home-banner intelli_buit_sec_new nb">
     <div className="container">
       <div className="home-banner-middle">
         <Image src={Banner} alt="" />
@@ -374,13 +374,14 @@ export default function Home() {
             </div>
         </div>
         <div className="border-imhg">
-            <Image src={Border} alt="" />
+            <Image src={Border} alt="" /> 
         </div>
         <div className="leading-financial-institutions-middle">
             <div className="leading-financial-institutions-left">
                  <div className="leading-financial-institutions-left-l">
                      <div className="leading-financial-institutions-heading">
                          <h3>SOME OF OUR <br/><span>BFSI COLLABORATIONS</span></h3>
+                         <h5>Clients Include: Northern Trust, Rockefeller, <br/>Broadridge, Citi, SEI, Ascensus, Inspira, PBUCC</h5>
                      </div>
                  </div>
                  <div className="leading-financial-institutions-right">
@@ -398,6 +399,148 @@ export default function Home() {
             <Image src={Border} alt="" />
         </div>
     </div>
+  </section>
+
+
+
+  <section className="financial-infrastructure-frame">
+    <div className="container">
+        <div className="financial-infrastructure-frame-middle">
+            <div className="financial-infrastructure-frame-middle-left">
+               <div className="leading-financial-institutions-heading">
+                         <h3>BUILDING THE<br/> FUTURE OF <span>FINANCIAL<br/> INFRASTRUCTURE</span></h3>
+                         <ul className="eading-fin">   
+                        <li>Tokenization, Active ETFs, and T+1 readiness
+</li> 
+                        <li>Cloud and AI adoption for scalable infrastructure</li>
+<li>Front: Product strategy, distribution, client experience
+ </li>
+ <li> Middle: Portfolio operations, analytics, risk, and compliance</li>
+ <li>Back: Fund administration, trade support, and accounting</li>
+ <li>Change: Conversions, vendor selection, PMO/Agile transformation</li>
+ <li>Controls: InfoSec, privacy, resiliency, and audit readiness</li> 
+                     </ul>
+               </div>
+            </div>
+            <div className="financial-infrastructure-frame-middle-right">
+               <Image src={Right} alt="" />
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section className="a-force-multiplier">
+    <div className="container">
+         <div className="defines-po-img">
+              <Image src={bordercut} alt="" />
+            </div>
+        <div className="a-force-multiplier-middle">
+            <div className="a-force-multiplier-middle-left">
+
+                     <div className="leading-financial-institutions-heading">
+                      <h5>A FORCE MULTIPLIER</h5>            
+                         <h3>DRIVING BFSI GROWTH <br/>WITH GSI PARTNERS</h3>
+                      </div>              
+               <Image src={BUILDINGOne} alt="" />
+            </div>
+            <div className="a-force-multiplier-middle-right">
+                <div className="Our-GSI-Partners">
+                     <h4>Our GSI Partners Provide:</h4>
+                      <ul className="eading-fin">
+                        <li>Engineering scale and global delivery</li>
+                      </ul>
+                </div>
+                 <div className="Our-GSI-Partners">
+                     <h4>Intelli Platforms Delivers:</h4>
+                      <ul className="eading-fin">
+                        <li>Deep BFSI domain expertise </li>
+                        <li>Proven experience building large-scale BFSI business units</li>
+                        <li>Knowledge of global IT majors and client wallet share</li>
+                      </ul>
+                </div>
+                   <div className="Our-GSI-Partners">
+                     <h4>Combined Value Proposition:</h4>
+                      <ul className="eading-fin">
+                        <li>Faster delivery with lower risk</li>
+                        <li>Co-sell into mutual BFSI accounts to expand market share</li>
+                        
+                      </ul>
+                </div>
+   <div className="Our-GSI-Partners">
+                     <h4>Our Differentiators:</h4>
+                      <ul className="eading-fin">
+                        <li>Unique accelerators, including Conversions, T+1 Toolkits, and SECURE 2.0 Playbooks</li>
+                        <li>2x growth potential through platform plays and SMB wins</li>
+                        
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section className="expertise-across-key-platforms">
+    <div className="container">
+      <div className="expertise-across-key-platforms-middle">
+          <div className="leading-financial-institutions-heading">
+                      <h3>EXTENDING BFSI EXPERTISE <br/>ACROSS <span>KEY PLATFORMS</span></h3>            
+                         
+           </div>
+           <ul>
+            <li>
+              <h5>Banking</h5>
+              <p>FIS, Fiserv, Finacle, Temenos</p>
+            </li>
+            <li>
+              <h5>Brokerage & Trading</h5>
+              <p>SunGard, SEI Wealth Platform, Eagle Pace, Calypso, Fidessa, SmartStream Recon</p>
+            </li>
+            <li>
+              <h5>Buyside</h5>
+              <p>Aladdin, Advent Geneva, Advent Partners, SS&C, Delta Data, EDM Stack, Digital Twins</p>
+            </li>
+            <li>
+              <h5>Insurance</h5>
+              <p>Duck Creek, Guidewire, DXC Cyberlife, Vantage, WMA</p>
+            </li>         
+            </ul>     
+      </div>
+    </div>
+  </section>
+
+
+  <section className="bsi-number-frame">
+      <div className="container">
+          <div className="bsi-number-frame-middle">
+            <ul>
+              <li>
+                <h5>  2,000+ </h5>
+                <h6>customer engagements</h6>
+              </li>
+              <li>
+                <h5>  40+ </h5>
+                <h6>years of collective industry experience</h6>
+              </li>
+              <li>
+                <h5>  <span>Access to</span> 100s </h5>
+                <h6>of SMEs across core BFSI domains</h6>
+              </li>
+              <li>
+               
+                <h6>Proven transformation success across operations and technology</h6>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </section>
+
+
+  <section className="last-content-main">
+<div className="container">
+   <div className="last-content-main-middle">
+    <h5>From legacy systems to next-gen platforms, Intelli enables BFSI enterprises to evolve faster, operate smarter, and grow stronger.</h5>
+   </div>
+</div>
   </section>
   
 <section className="foot-top-sectto">
