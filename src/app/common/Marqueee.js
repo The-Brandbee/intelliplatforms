@@ -23,15 +23,17 @@ export default function TestimonialSlide() {
 
     
              <div className="ENTERPRISES-main-frame-inner ">
-                                      <div className="ENTERPRISES-main-frame-inner-middle ">
-                                           <div className="ENTERPRISES-left ">
-                                                <h4>12%</h4>
-                                                <p>YOY Revenue <br/>Growth</p>
-                                           </div>
-                                           <div className="ENTERPRISES-right">
-                                                <Image src={ENTERPRISESR} alt="" />
-                                           </div>
-                                      </div>
+                                     {/* 
+<div className="ENTERPRISES-main-frame-inner-middle ">
+  <div className="ENTERPRISES-left ">
+    <h4>12%</h4>
+    <p>YOY Revenue <br/>Growth</p>
+  </div>
+  <div className="ENTERPRISES-right">
+    <Image src={ENTERPRISESR} alt="" />
+  </div>
+</div>
+*/}
                                     
                                        <div className="ENTERPRISES-main-frame-inner-middle">
                                            <div className="ENTERPRISES-left">
