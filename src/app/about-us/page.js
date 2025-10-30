@@ -70,7 +70,7 @@ export default function Home() {
            DIGITAL FUTURES
           </h1>
           <p className="intelli_seconf_banner_first_para">
-          Global expertise in network engineering, cloud operations, and observability services.
+          Global expertise in Network Platforms, cloud operations, and observability services.
           </p>
         </div>
         <div className="home-banner-middle-middle-botto-heading">

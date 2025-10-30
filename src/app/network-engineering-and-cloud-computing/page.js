@@ -112,12 +112,8 @@ export default function Home() {
       <div className="home-banner-middle">
         <Image src={Banner} alt="" />
         <div className="home-banner-middle-middle">
-          <h1 className="intelli_seconf_banner_first_head">
-          NETWORK <br/>ENGINEERING AND 
-          </h1>
-          <h1 className="intelli_seconf_banner_second_head">
-        CLOUD COMPUTING 
-          </h1>
+        <h1 className="intelli_seconf_banner_first_head">NETWORK <br/>PLATFORMS AND</h1>
+        <h1 className="intelli_seconf_banner_second_head">CLOUD COMPUTING</h1>
           <p className="intelli_seconf_banner_first_para">
          Trusted, scalable, and cost-effective solutions to modernize enterprise networks and cloud infrastructure.
           </p>
