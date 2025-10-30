@@ -87,7 +87,7 @@ export default function Home() {
         Driving modernization, resilience, and innovation across asset, investment, and retirement ecosystems.
           </p>
         </div>
-        <div className="home-banner-middle-middle-botto-heading TRANSFORMATION">
+        <div className="home-banner-middle-middle-botto-heading TRANSFORMATION new">
           <h3 className="intelli_second_banner_last_head">
         YOUR PARTNER IN FINANCIAL <br/><span>TRANSFORMATION</span>
           </h3>
@@ -95,13 +95,13 @@ export default function Home() {
           Intelli Platforms partners with global financial institutions to modernize, stabilize, and optimize business models, processes, and technology stacks.
           </p>
           <p className="intelli_second_banner_last_para">With over four decades of collective BFSI experience and deep domain expertise across Asset Management, Investment Management, Retirement Services, Employee Benefits, Brokerage, and Insurance, Intelli takes a boutique, specialty-driven approach to operational and digital transformation.</p>
-          <p className="intelli_second_banner_last_para">As the industry moves toward Al, automation, and data-driven engagement, Intelli helps clients embrace next-gen capabilities while preparing for the wealth transfer to Gen Z and millennial investors.</p>
+          <p className="intelli_second_banner_last_para">As the industry moves toward AI, automation, and data-driven engagement, Intelli helps clients embrace next-gen capabilities while preparing for the wealth transfer to Gen Z and millennial investors.</p>
         </div>
       </div>
     </div>
   </section>
 
-<section className="si-pagemidle">
+<section className="si-pagemidle main">
 <br/>
 <br/>
      <div className="container">
@@ -386,10 +386,10 @@ export default function Home() {
                  </div>
                  <div className="leading-financial-institutions-right">
                      <ul className="eading-fin">   
-                        <li>Retirement: FIS, Fiserv, Ascensus, SEI, Delta Data
+                        <li><span>Retirement:</span> FIS, Fiserv, Ascensus, SEI, Delta Data
 </li> 
-                        <li>Asset Servicing: Northern Trust, SS&C, Broadridge, DTCC</li>
-<li>Investment: OMS, PMS, IBOR/ABOR, Data Lakes
+                        <li><span>Asset Servicing:</span> Northern Trust, SS&C, Broadridge, DTCC</li>
+<li><span>Investment:</span> OMS, PMS, IBOR/ABOR, Data Lakes
  </li>
                      </ul>
                  </div>
@@ -538,7 +538,7 @@ export default function Home() {
   <section className="last-content-main">
 <div className="container">
    <div className="last-content-main-middle">
-    <h5>From legacy systems to next-gen platforms, Intelli enables BFSI enterprises to evolve faster, operate smarter, and grow stronger.</h5>
+    <h5>From legacy systems to next-gen platforms, Intelli enables BFSI enterprises to evolve faster, <br/>operate smarter, and grow stronger.</h5>
    </div>
 </div>
   </section>

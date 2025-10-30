@@ -69,7 +69,7 @@ p{
 }
 .bsi-number-frame-middle ul li h5{
   color: #01C591;
-      font-size: 32px;
+      font-size: 38px;
 }
 .bsi-number-frame-middle ul li h6{
     color: #012638;
@@ -116,10 +116,10 @@ p{
     background-position: center;
     background-size: cover;
     padding-top: 50px;
-    padding-bottom: 120px;  
+    padding-bottom: 150px;  
 }
 .a-force-multiplier{
-        margin-top: 160px;
+        margin-top: 110px;
 }
 .a-force-multiplier .defines-po-img {
     right: 11.5px;
@@ -195,7 +195,7 @@ p{
     margin-bottom: 10px;
 }
 .eading-fin{
-    
+    padding-left: 20px;
 }
 .leading-financial-institutions-middle{
             margin: 35px 0px;
@@ -2483,7 +2483,16 @@ position: absolute;
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.home-banner-middle-middle-botto-heading.TRANSFORMATION.new{
+    z-index: 9;
+}
+.si-pagemidle.main{
+padding-top: 50px;
+}
 @media all and (min-width: 120px) and (max-width: 690px){
+    .last-content-main-middle h5 br{
+      display: none;
+    }
     .Asset-Management-frame-main.FINANCIAL-ECOSYSTEM ul li img{
         margin-bottom: 10px;
     }
