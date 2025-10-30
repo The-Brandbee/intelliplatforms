@@ -86,6 +86,11 @@ class MobileMenu extends React.Component {
                     <AccordionItemPanel>
                       <div className="Menu-underLink">
                         <ul>
+                            <li>
+                            <Link href="/bfsi">
+       BFSI
+      </Link>
+                          </li>
                           <li>
                             <Link href="/network-engineering-and-cloud-computing">
         Network Engineering and Cloud Operation

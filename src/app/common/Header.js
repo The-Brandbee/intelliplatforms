@@ -39,6 +39,11 @@ function IndexPage() {
     Solutions
   </Link>
   <ul className="absolute hidden group-hover:block">
+     <li>
+      <Link href="/bfsi">
+       BFSI
+      </Link>
+    </li>
       <li>
       <Link href="/network-engineering-and-cloud-computing">
         Network Engineering and Cloud Operation
