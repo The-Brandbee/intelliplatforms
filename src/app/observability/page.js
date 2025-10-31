@@ -404,7 +404,7 @@ export default function Home() {
        <div className="software-as-main-section-middle">
       <Image src={softwareMiddle} alt="" className="normal" />
       <div className="bottom-content">
-        <p><a href="#">Click here </a> to know more of our accelerators</p>
+        <p><a target="_blank" href="https://deeptanshubansal.in/comingsoon/">Click here </a> to know more of our accelerators</p>
       </div>
        </div>
        <div className="software-as-main-section-right">

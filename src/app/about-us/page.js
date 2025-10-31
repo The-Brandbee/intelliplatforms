@@ -168,7 +168,7 @@ export default function Home() {
               </div>
               <div className="intelli_what_we_stand_for_right_cont_box">
                 <p>
-                  We’re more than a service provider; we’re a strategic partner.
+                  We’re more than a service provider; we're a strategic partner.
                   Our work is anchored in a strong set of values that guide
                   everything we do.
                 </p>
