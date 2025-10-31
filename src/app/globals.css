@@ -2495,9 +2495,23 @@ position: absolute;
 .si-pagemidle.main{
 padding-top: 50px;
 }
+  .team_popup{
+        max-width: 600px !important;
+  }
+  .defines-po-img.mkh img{
+    width: 477px;
+  }
+  .wghat_we_brinf_height_img_box.mnb img{
+
+        height: 340px;
+  }
 @media all and (min-width: 120px) and (max-width: 690px){
 
-
+.team_popup {
+  max-width: 100% !important;
+        height: 100%;
+        overflow: auto;
+}
     .network-page .intelli_buit_sec_new .home-banner-middle-middle.obser {
     position: relative;
         width: 100%;

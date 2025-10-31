@@ -87,7 +87,7 @@ export default function Home() {
   
   <section className="what-defines-our-culture inteli_second_border_cut_sec">
     <div className="container">
-      <div className="defines-po-img">
+      <div className="defines-po-img mkh">       
         <Image src={bordercut} alt="" />
       </div>
       <div className="what_we_bring_the_table_sec">
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </div>
             <div className="what_we_bring_30_col">
-              <div className="wghat_we_brinf_height_img_box">
+              <div className="wghat_we_brinf_height_img_box mnb">
                  <Image src={boyN} alt="" />
               </div>
             </div>
