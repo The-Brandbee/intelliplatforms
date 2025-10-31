@@ -17,7 +17,7 @@ import OptimizerOne from "../img/Group 327.svg";
 import OptimizerNine from "../img/Group 379.svg"; 
 import MONITORINGTL from "../img/DEEP-2.png";  
 import OptimizerEight from "../img/Group 377.svg";
-import OptimizerSeven from "../img/Group 375.svg";
+import OptimizerSeven from "../img/Remediator.png";
 
 import Image from "next/image";
 import Head from "next/head";
