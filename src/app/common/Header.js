@@ -46,7 +46,7 @@ function IndexPage() {
     </li>
       <li>
       <Link href="/network-engineering-and-cloud-computing">
-        Network Platforms and Cloud Operation
+        Network Platforms 
       </Link>
     </li>
     <li>
