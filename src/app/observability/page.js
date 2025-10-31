@@ -110,7 +110,7 @@ export default function Home() {
     <div className="container">
       <div className="home-banner-middle">
         <Image src={Banner} alt="" />
-        <div className="home-banner-middle-middle">
+        <div className="home-banner-middle-middle obser">
           
           <h1 className="intelli_seconf_banner_second_head">OBSERVABILITY</h1>
           <p className="intelli_seconf_banner_first_para">
