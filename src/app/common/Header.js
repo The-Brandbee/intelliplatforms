@@ -34,6 +34,9 @@ function IndexPage() {
               <li>
               <Link href="/about-us">About</Link>
               </li>
+              <li>
+              <Link href="/partner">Partner</Link>
+              </li>
                <li className="relative group">
   <Link href="#">
     Solutions
@@ -56,6 +59,7 @@ function IndexPage() {
     </li>
   </ul>
 </li>
+
             </ul>
            {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>
