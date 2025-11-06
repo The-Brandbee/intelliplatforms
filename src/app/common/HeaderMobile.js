@@ -82,7 +82,7 @@ class MobileMenu extends React.Component {
                    <AccordionItem>
                   <Link href="/partner">
                       <AccordionItemHeading>
-                        <AccordionItemButton>Partner</AccordionItemButton>
+                        <AccordionItemButton>Partners</AccordionItemButton>
                       </AccordionItemHeading>
                       </Link>
                   </AccordionItem>
@@ -110,6 +110,13 @@ class MobileMenu extends React.Component {
                         </ul>
                       </div>
                     </AccordionItemPanel>
+                  </AccordionItem>
+                    <AccordionItem>
+                  <Link href="/events">
+                      <AccordionItemHeading>
+                        <AccordionItemButton>Events</AccordionItemButton>
+                      </AccordionItemHeading>
+                      </Link>
                   </AccordionItem>
               {/*   <AccordionItem>
                   <Link href="/">
