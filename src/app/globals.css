@@ -2619,7 +2619,81 @@ padding-top: 50px;
 .intelli_partner_main_logo_box img{
     margin-top: 30px;
 }
+.enent-page .intelli_buit_sec_new .home-banner-middle-middle-botto-heading.partner
+
+ {
+    bottom: 10px !important;
+}
+.event-new-middle{
+    background: #012638;
+}
+.event-new-middle-middle{    
+        padding: 25px;
+        background: #fff;
+    border: 1px solid #01c591;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2%;}
+    .event-new-middle-middle-top{
+        display: flex;
+        justify-content: space-around;
+    }
+    .event-new-middle-middletop-left{
+
+    }
+    .event-new-middle-middletop-right{
+        width: 50%;
+    }
+    .event-new-middle-middletop-right img{
+            width: 75%;
+    height: auto;
+    float: right;
+    }
+    .event-new-middle-middletop-left h4{
+     color: #012638;
+    }
+    .event-new-middle-middletop-left span{
+     display: block;
+    }
+    .event-new-middle-middletop-left ul{
+padding-left: 0px;
+    margin-top: 40px;
+    }
+     .event-new-middle-middletop-left ul li{
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+     .event-new-middle-middletop-left ul li img{
+            height: auto;
+    width: 18px;
+    margin-right: 10px;
+    }
+    .event-new-middle-middle-bottom p{
+         color: #012638;
+    }
+    .event-new-middle-middle-bottom p span{
+      color: #01c591;
+          font-weight: 600;
+              margin-bottom: 0px;
+    }
+    .enent-arrow {
+position: absolute;
+    right: 30px;
+    bottom: 12px;
+    }
+    .enent-arrow img{
+    height: auto;
+    width: 35px;
+    cursor: pointer;
+    }
+    .event-new-middle-middle{
+        position: relative;
+    }
 @media only screen and (max-width: 600px) {
+    .event-new-middle-middle{
+        width: 100%;
+    }
     .home-banner.intelli_buit_sec_new.partner
 
  {
