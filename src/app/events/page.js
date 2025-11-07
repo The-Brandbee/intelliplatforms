@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
              </div>
              <div className="event-new-middle-middle-bottom">
-                <p><span>Organised by:</span> Virtuosic Ventures </p>
+                <p><span>Organized by:</span> Virtuosic Ventures </p>
                 <p><span>Attending:</span> </p>
                 <p><span>Details:</span> Centered around the theme “Synergy & Scale: Architecting Our Future”, the summit brings together Virtuosic portfolio companies for strategic alignment and collaboration. Expect immersive sessions, keynote discussions, and networking opportunities that spark innovation and shared growth.</p>
              
