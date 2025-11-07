@@ -4,6 +4,7 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 // === Images ===
+import TeamSevenMNB from "../img/Preeta.png";
 import TeamSeven from "../img/ravi.jpg";
 import TeamSixx from "../img/Amit.png";
 import Teamone from "../img/Group 277@2x.png";
@@ -80,6 +81,14 @@ export default function TestimonialSlide() {
       designation: "Head of BFSI",
       description:
         "Ravi serves as the Head of BFSI at Intelli Platforms, bringing over 32 years of experience across financial services, healthcare, and life sciences. A seasoned technology and operations leader, he has driven large-scale digital transformation programs and regulatory compliance initiatives for leading global firms including Cognizant, Wipro, Infosys, Tech Mahindra, and Coforge. At Intelli, Ravi leads the BFSI practice by integrating strategy, operations, and innovation to accelerate client growth. He holds an MS in Robotics from IIT Chennai and is based in Princeton, NJ.",
+    },
+       {
+      id: 9,
+      img: TeamSevenMNB,
+      name: "Preeta Mohanty",
+      designation: "Chief People Officer",
+      description:
+        "Preeta is a people-first strategist with extensive experience in building and scaling organizations through culture, capability, and leadership transformation. She has led People and Talent functions across fast-growing enterprises, driving impact through organizational design and leadership alignment. Her previous roles at Narayana One Health, Tata Consulting Engineers, Amazon, and Tata Communications reflect her expertise in workforce expansion, performance frameworks, and culture integration across global teams.",
     },
   ];
 
