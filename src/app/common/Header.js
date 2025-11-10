@@ -35,7 +35,7 @@ function IndexPage() {
               <Link href="/about-us">About</Link>
               </li>
               <li>
-              <Link href="/partner">Partners</Link>
+              <Link href="/partners">Partners</Link>
               </li>
                <li className="relative group">
   <Link href="#">
