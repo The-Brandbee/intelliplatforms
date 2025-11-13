@@ -4,7 +4,7 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 // === Images ===
-import TeamSevenMNB from "../img/Preeta.png";
+import TeamSevenMNB from "../img/Preeta@2x.png";
 import TeamSeven from "../img/ravi.jpg";
 import TeamSixx from "../img/Amit.png";
 import Teamone from "../img/Group 277@2x.png";

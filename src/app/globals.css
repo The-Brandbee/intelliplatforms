@@ -1254,6 +1254,7 @@ font-weight: 500;
     height: max-content;
     padding: 0;
     border: 2px solid #01C591;
+        background: #012638;
 }
 .intelli_leader_team_section img{
         width: 100%;

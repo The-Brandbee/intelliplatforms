@@ -442,7 +442,7 @@ export default function Home() {
                   <Image src={softwareNineHover} alt="" className="hover" />
               </div>
               <div className="box-im-content-hover">
-                <p>Infrastructure <br/>4 Free</p>
+                <p>Infrastructure <br/>Four Free</p>
               </div>
             </li>
              <li>
