@@ -2605,7 +2605,7 @@ padding-top: 50px;
     z-index: 0;
 }
 .intelli_buit_sec_new .home-banner-middle-middle-botto-heading.partner{
-    bottom: -30px !important;
+    bottom: -75px !important;
 }
 .home-banner.intelli_buit_sec_new.partner{     
     padding-bottom: 30px !important;
@@ -2761,7 +2761,9 @@ transform: scale(1.2);
 transition: transform .2s;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
-
+.intelli_buit_sec_new .home-banner-middle-middle-botto-heading.partner {
+    bottom: -10px !important;
+}
 .team_popup {
   max-width: 100% !important;
         height: 100%;

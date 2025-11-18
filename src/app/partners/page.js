@@ -120,7 +120,7 @@ export default function Home() {
   className="intelli_second_banner_last_para"
   style={{ color: '#01C591' }}
 >
-  Which Partners are we working with right now!
+ Align with a network of trusted partners who reinforce excellence, optimize value, and ensure the reliability and integrity essential for scalable growth.
 </p>             
         </div>
       </div>
