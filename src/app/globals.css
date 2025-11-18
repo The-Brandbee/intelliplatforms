@@ -2754,6 +2754,12 @@ position: absolute;
 
 
 }
+.ingest_optomize_one_grad_box_inner:hover img{
+transform: scale(1.2);
+}
+.ingest_optomize_one_grad_box_inner  img{
+transition: transform .2s;
+}
 @media all and (min-width: 120px) and (max-width: 690px){
 
 .team_popup {

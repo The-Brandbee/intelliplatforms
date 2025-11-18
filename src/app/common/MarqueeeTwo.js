@@ -15,7 +15,7 @@ import OptimizerThree from "../img/Group 333.svg";
 import OptimizerTwo from "../img/Group 330.svg";  
 import OptimizerOne from "../img/Group 327.svg";
 import OptimizerNine from "../img/Group 379.svg"; 
-import MONITORINGTL from "../img/DEEP-2.png";  
+import OptimizerTenNN from "../img/ingest-opt-n.png";  
 import OptimizerEight from "../img/Group 377.svg";
 import OptimizerSeven from "../img/Remediator.png";
 
@@ -43,7 +43,7 @@ export default function TestimonialSlide() {
                   <p>Recover up to 50% of ingest costs</p>
                 </div>
                 <div className="ingest_optomize_one_grad_box_colmuns ingest_optomize_one_grad_box_colmuns_img">
-                  <Image src={OptimizerOne} alt="Ingest Optimizer Scheduler" />
+                  <Image src={OptimizerTen} alt="Ingest Optimizer Scheduler" />
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function TestimonialSlide() {
                   <p>Detailed ingest analysis for transaction-level insights</p>
                 </div>
                 <div className="ingest_optomize_one_grad_box_colmuns ingest_optomize_one_grad_box_colmuns_img">
-                  <Image src={OptimizerTen} alt="Transaction Tracker" />
+                  <Image src={OptimizerTenNN} alt="Transaction Tracker" />
                 </div>
               </div>
             </div>
