@@ -2541,12 +2541,14 @@ padding-top: 50px;
 }
 .intelli_partener_new_left_column{
     width: 49%;
+    position: relative;
 }
 .intelli_partener_new_middle_column{
     width: 2%;
 }
 .intelli_partener_new_right_column{
     width: 47%;
+    position: relative;
 }
 .intelli_partner_main_logo_box img {
     width: 47%;

@@ -109,12 +109,12 @@ export default function Home() {
   {/* banner sec */}
   <section className="home-banner intelli_buit_sec_new partner">
     <div className="container">
-      <div className="home-banner-middle">
+      <div className="home-banner-middle partner">   
         <Image src={Banner} alt="" />
        
         <div className="home-banner-middle-middle-botto-heading partner">
           <h3 className="intelli_second_banner_last_head">
-        Intelli Platforms Partner / Practices
+        Intelli Platforms Partner / Practices   
           </h3>
          <p
   className="intelli_second_banner_last_para"
