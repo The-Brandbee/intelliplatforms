@@ -146,6 +146,11 @@ background: #fff;
     border: 2px solid #01C591;
     border-radius: 28px;
     font-style: normal;
+    position: absolute;
+    bottom: 30px;
+}
+.intelli_partener_new_main_box p{
+        margin-bottom: 50px;
 }
 .home-banner-middle.partner{
 margin-bottom: 40px;
