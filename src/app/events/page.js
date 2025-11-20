@@ -151,7 +151,7 @@ export default function Home() {
              </div>
              <div className="event-new-middle-middle-bottom">
                 <p><span>Organized by:</span> Virtuosic Ventures </p>
-                <p><span>Attending:</span> Intelli Leadership and Product Teams</p>
+                <p><span>Attended:</span> Intelli Leadership and Product Teams</p>
                 <p><span>Details:</span> Intelli participated in Ignite 2026, contributing to conversations around product innovation, platform scalability, and data-driven transformation. The event brought together leaders from across the ecosystem, enabling Intelli to showcase its capabilities, build cross-portfolio synergies, and gain insights to accelerate its technology roadmap.</p>
              
              </div>
