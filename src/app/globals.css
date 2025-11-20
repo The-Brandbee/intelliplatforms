@@ -135,6 +135,25 @@ p{
 .Our-GSI-Partners{
     margin-bottom: 50px;
 }
+.intelli_partener_new_main_box p a {
+display: inline-block !important;
+background: #fff;
+    color: #01C591;
+    text-decoration: none;
+    font-family: HelveticaNeueBold;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 2px solid #01C591;
+    border-radius: 28px;
+    font-style: normal;
+}
+.home-banner-middle.partner{
+margin-bottom: 40px;
+}
+.intelli_partener_new_main_box p a:hover{
+    background: #01C591;
+    color: #fff;
+}
 .a-force-multiplier-middle-right h4{
     color: #01C591 !important;
     font-size: 16px;
@@ -2551,6 +2570,8 @@ padding-top: 50px;
 .intelli_partener_new_main_row{
     display: flex;
     justify-content: space-between;
+        z-index: 999;
+    position: relative;
 }
 .intelli_partener_new_right_column .intelli_partener_new_main_box{
     padding-left: 10%;
@@ -2588,7 +2609,7 @@ padding-top: 50px;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
     opacity: 2;
-    z-index: 99999;
+    z-index: 9;
 }
 /* --- Bottom Icon --- */
 .intelli_partener_new_main_sec::after {
@@ -2723,6 +2744,7 @@ position: absolute;
     width: 80%;
     margin-bottom: 15px;
 }
+
 .intelli_partener_new_main_sec::before{
     display: none;
 }
