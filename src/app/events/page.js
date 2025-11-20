@@ -119,7 +119,7 @@ export default function Home() {
         </div>
         <div className="home-banner-middle-middle-botto-heading partner">
           <h3 className="intelli_second_banner_last_head">
-        Upcoming Events
+        Past Events
           </h3>
              
         </div>
@@ -151,8 +151,8 @@ export default function Home() {
              </div>
              <div className="event-new-middle-middle-bottom">
                 <p><span>Organized by:</span> Virtuosic Ventures </p>
-                <p><span>Attending:</span> </p>
-                <p><span>Details:</span> Centered around the theme “Synergy & Scale: Architecting Our Future”, the summit brings together Virtuosic portfolio companies for strategic alignment and collaboration. Expect immersive sessions, keynote discussions, and networking opportunities that spark innovation and shared growth.</p>
+                <p><span>Attending:</span> Intelli Leadership and Product Teams</p>
+                <p><span>Details:</span> Intelli participated in Ignite 2026, contributing to conversations around product innovation, platform scalability, and data-driven transformation. The event brought together leaders from across the ecosystem, enabling Intelli to showcase its capabilities, build cross-portfolio synergies, and gain insights to accelerate its technology roadmap.</p>
              
              </div>
              <div className="enent-arrow">
@@ -160,7 +160,7 @@ export default function Home() {
              </div>
          </div>
     </div>
-</section>
+</section>          
 
 
 
