@@ -37,6 +37,105 @@ import Back from "../img/bx-arrow-back.svg";
 import Banner from "../img/contact-us-banner.png";  
 import CustomerOnneTfoy from "../img/built-new-43.png";
 export default function Home() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    contactNo: "",
+    subject: "",
+    message: "",
+    honeypot: "", // Spam prevention field
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showThankYou, setShowThankYou] = useState(false);
+  const [submitError, setSubmitError] = useState("");
+  const [formLoadTime] = useState(Date.now()); // Track when form was loaded
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors((prev) => ({
+        ...prev,
+        [name]: "",
+      }));
+    }
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+    
+    if (!formData.name.trim()) {
+      newErrors.name = "Name is required";
+    }
+    
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = "Please enter a valid email address";
+    }
+    
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSubmitError("");
+    
+    if (!validateForm()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          contactNo: formData.contactNo,
+          subject: formData.subject,
+          message: formData.message,
+          honeypot: formData.honeypot, // Spam prevention
+          formLoadTime: formLoadTime, // Time-based validation
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setShowThankYou(true);
+        setFormData({
+          name: "",
+          email: "",
+          contactNo: "",
+          subject: "",
+          message: "",
+          honeypot: "",
+        });
+        // Scroll to thank you message
+        setTimeout(() => {
+          document.getElementById("displayMessage")?.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      } else {
+        setSubmitError(data.error || "Failed to submit form. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setSubmitError("An error occurred. Please try again later.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
     <div className="about-us-main-page contact-us-new-page">     
             
@@ -155,11 +254,35 @@ export default function Home() {
     id="project-contact-form"
     autoComplete="off"
     className="contact-us-page-main-from"
-    action="#"
-    method="post"
+    onSubmit={handleSubmit}
   >
     <div className="form-group">
-      <div className="displayMessage" id="displayMessage" />
+      <div className="displayMessage" id="displayMessage">
+        {showThankYou && (
+          <div style={{ 
+            padding: "15px", 
+            backgroundColor: "#d4edda", 
+            color: "#155724", 
+            border: "1px solid #c3e6cb", 
+            borderRadius: "4px",
+            marginBottom: "20px"
+          }}>
+            <strong>Thank you!</strong> Your message has been sent successfully. We will get back to you soon.
+          </div>
+        )}
+        {submitError && (
+          <div style={{ 
+            padding: "15px", 
+            backgroundColor: "#f8d7da", 
+            color: "#721c24", 
+            border: "1px solid #f5c6cb", 
+            borderRadius: "4px",
+            marginBottom: "20px"
+          }}>
+            <strong>Error:</strong> {submitError}
+          </div>
+        )}
+      </div>
     </div>
     <div className="row">
       <div className="col-md-6">
@@ -169,21 +292,27 @@ export default function Home() {
             id="name"
             placeholder="Name *"
             className="big-input form-control"
-            name="Your Name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
           />
-          <span style={{ color: "red" }} />
+          {errors.name && <span style={{ color: "red", fontSize: "12px" }}>{errors.name}</span>}
         </div>
       </div>
       <div className="col-md-6">
         <div className="form-group">
           <input
-            type="text"
-            id="text"
-            placeholder="Your Email"
+            type="email"
+            id="email"
+            placeholder="Your Email *"
             className="big-input form-control"
-            name="Your Email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
           />
-          <span style={{ color: "red" }} />
+          {errors.email && <span style={{ color: "red", fontSize: "12px" }}>{errors.email}</span>}
         </div>
       </div>
     </div>
@@ -192,12 +321,13 @@ export default function Home() {
         <div className="form-group">
           <input
             type="text"
-            id="number"
+            id="contactNo"
             placeholder="Contact No."
             className="big-input form-control"
-            name="Contact No."
+            name="contactNo"
+            value={formData.contactNo}
+            onChange={handleChange}
           />
-          <span style={{ color: "red" }} />
         </div>
       </div>
      
@@ -211,8 +341,9 @@ export default function Home() {
             placeholder="Purpose of Contact"
             className="big-input form-control"
             name="subject"
+            value={formData.subject}
+            onChange={handleChange}
           />
-          <span style={{ color: "red" }} />
         </div>
       </div>
     </div>
@@ -220,23 +351,36 @@ export default function Home() {
       <div className="col-md-12">
         <div className="form-group">
           <textarea
-            name="comment"
-            id="comment"
+            name="message"
+            id="message"
             placeholder="Your Message"
             rows={6}
             className="big-textarea form-control"
-            defaultValue={""}
+            value={formData.message}
+            onChange={handleChange}
           />
-          <span style={{ color: "red" }} />
         </div>
       </div>
     </div>
+    {/* Honeypot field for spam prevention - hidden from users */}
+    <div style={{ display: "none", visibility: "hidden", height: 0, overflow: "hidden" }}>
+      <input
+        type="text"
+        name="honeypot"
+        id="honeypot"
+        tabIndex="-1"
+        autoComplete="off"
+        value={formData.honeypot}
+        onChange={handleChange}
+      />
+    </div>
     <button
       id="project-contact-us-button"
-      type="button"
+      type="submit"
       className="btn btn-default"
+      disabled={isSubmitting}
     >
-      Send Message <Image src={Back} alt="" />
+      {isSubmitting ? "Sending..." : "Send Message"} <Image src={Back} alt="" />
     </button>
   </form>
 </div>
