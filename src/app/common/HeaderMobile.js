@@ -118,6 +118,13 @@ class MobileMenu extends React.Component {
                       </AccordionItemHeading>
                       </Link>
                   </AccordionItem>
+                  <AccordionItem>
+                  <Link href="/contact-us">
+                      <AccordionItemHeading>
+                        <AccordionItemButton>Contact Us</AccordionItemButton>
+                      </AccordionItemHeading>
+                      </Link>
+                  </AccordionItem>
               {/*   <AccordionItem>
                   <Link href="/">
                       <AccordionItemHeading>

@@ -62,6 +62,9 @@ function IndexPage() {
  <li>
               <Link href="/events">Events</Link>
               </li>
+              <li>
+              <Link href="/contact-us">Contact Us</Link>
+              </li>
             </ul>
            {/* <div className="header-login-frame">
                 <Link href="#">Login</Link>
