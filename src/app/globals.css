@@ -2790,6 +2790,12 @@ transform: scale(1.2);
 transition: transform .2s;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+    .intelli_what_we_stand_for_right_column_box2{
+                margin-bottom: 0px !important;
+    }
+    .project_based_servies_colums.last.mobe{
+       display: none;
+    }
 .intelli_buit_sec_new .home-banner-middle-middle-botto-heading.partner {
     bottom: -10px !important;
 }
