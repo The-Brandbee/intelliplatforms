@@ -37,7 +37,7 @@ function IndexPage() {
             </div>
             <div className="footer-bottom">
                <p>Intelli Platforms</p>
-               <p>All Right Reserved | 2025</p>
+               <p>All Right Reserved | 2026</p>
             </div>
         </div>
         </div>
