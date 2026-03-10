@@ -44,7 +44,7 @@ export default function Arfactoring() {
                 <div className="container">
             
   <div className="faq-main-secton-heading">
-   <h1>Introduction</h1>
+   <h1>Privacy Policy</h1>
    <p>
    Welcome to Intelli Platforms ("we," "us," or "our"). We are committed to protecting the privacy and security of the personal information we collect. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website www.intelliplatforms.com, engage with our services, or apply for a position with us.
    </p>
