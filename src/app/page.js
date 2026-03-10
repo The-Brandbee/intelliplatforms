@@ -38,12 +38,12 @@ import SpecializiLeft  from "../app/img/Group--396@2x.png";
 import SpecializiMiddle from "../app/img/Group397.svg";  
 import SpecializiRight from "../app/img/Group 180.png";
 
-
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
     <>     
-            
+            <GoogleTagManager gtmId="GTM-MFH6JPN5" /> 
       <main>                   
         <Head>
           <meta charset="utf-8" />
