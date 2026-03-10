@@ -113,9 +113,9 @@ export default function Home() {
         <Image src={Banner} alt="" />
        
         <div className="home-banner-middle-middle-botto-heading partner">
-          <h3 className="intelli_second_banner_last_head">
+          <h1 className="intelli_second_banner_last_head">
         Intelli Platforms Partner / Practices   
-          </h3>
+          </h1>
          <p
   className="intelli_second_banner_last_para"
   style={{ color: '#01C591' }}

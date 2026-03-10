@@ -49,6 +49,7 @@ export default function Home() {
           />
           <meta name="robots" content="index, follow" />
           <meta name="description" content="=" />
+          <link rel="canonical" href="https://www.intelliplatforms.com/about-us/" />
         </Head>
 
         <header>
@@ -63,20 +64,20 @@ export default function Home() {
       <div className="home-banner-middle">
         <Image src={Banner} alt="" />
         <div className="home-banner-middle-middle">
-          <h1 className="intelli_seconf_banner_first_head">
+          <h2 className="intelli_seconf_banner_first_head">
            ENGINEERING RESILIENT 
-          </h1>
-          <h1 className="intelli_seconf_banner_second_head">
+          </h2>
+          <h2 className="intelli_seconf_banner_second_head">
            DIGITAL FUTURES
-          </h1>
+          </h2>
           <p className="intelli_seconf_banner_first_para">
           Global expertise in Network Platforms, cloud operations, and observability services.
           </p>
         </div>
         <div className="home-banner-middle-middle-botto-heading">
-          <h3 className="intelli_second_banner_last_head">
+          <h1 className="intelli_second_banner_last_head">
             ABOUT <span>INTELLI <br/>PLATFORMS</span>
-          </h3>
+          </h1>
           <p className="intelli_second_banner_last_para">
           Intelli Platforms is a global managed IT services provider with over nine years of de excellence. With 200+ certified engineers across the U.S., India, and Costa Rica, we help enterprises modernize their infrastructure, optimize cloud operations, and unlock observability at scale. Our proprietary Accelerator Toolbox and industry expertise ensure solutions that are cost-effective, scalable, and built for the future.
           </p>

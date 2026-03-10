@@ -46,13 +46,14 @@ export default function Home() {
             <GoogleTagManager gtmId="GTM-WK52CSMG" /> 
       <main>                   
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
           <meta name="robots" content="index, follow" />
           <meta name="description" content="=" />
+          <link rel="canonical" href="https://www.intelliplatforms.com/" />
         </Head>
 
         <header>
@@ -68,9 +69,9 @@ export default function Home() {
         <div className="home-banner-middle-middle">
           <h1 className="intelli_seconf_banner_first_head">
           BUILT FOR THE ENTERPRISE .
-          </h1>
-          <h1 className="intelli_seconf_banner_second_head">
+          <span className="intelli_seconf_banner_second_head">
          DRIVEN BY OUR EXPERTISE .
+          </span>
           </h1>
           <p className="intelli_seconf_banner_first_para">
   As a global, full-service Managed IT Services Provider with over a decade of experience, Intelli Platforms help businesses navigate the rapidly transforming technology landscape. We deliver innovative solutions that drive scalability and operational efficiency, empowering our clients to meet the evolving demands of the tech ecosystem.
