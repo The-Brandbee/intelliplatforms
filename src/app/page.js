@@ -43,7 +43,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 export default function Home() {
   return (
     <>     
-            <GoogleTagManager gtmId="GTM-MFH6JPN5" /> 
+            <GoogleTagManager gtmId="GTM-WK52CSMG" /> 
       <main>                   
         <Head>
           <meta charset="utf-8" />
