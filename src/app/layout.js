@@ -7,13 +7,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Empowering Enterprises Through Intelligent IT Solutions",
   description: "Empowering Enterprises Through Intelligent IT Solutions",
+  alternates: {
+    canonical: "https://www.fundedd.com", 
+  },
+   robots: {
+    index: true,
+    follow: true,
+  },
 
   verification: {
     google: "lt0rwl2olLUmWdGmQOT2AL1s6DTzk5rAG30Sp8oT4Pg",
-  },
-
-  alternates: {
-    canonical: "",
   },
   openGraph: {
     images: "",

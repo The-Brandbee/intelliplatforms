@@ -113,7 +113,7 @@ export default function NetworkEngineering() {
         <Image src={Banner} alt="" />
         <div className="home-banner-middle-middle">
         <h1 className="intelli_seconf_banner_first_head">NETWORK <br/>PLATFORMS AND
-        <span className="intelli_seconf_banner_second_head">CLOUD COMPUTING</span>
+        <span className="intelli_seconf_banner_second_head">&nbsp;CLOUD COMPUTING</span>
         </h1>
           <p className="intelli_seconf_banner_first_para">
          Trusted, scalable, and cost-effective solutions to modernize enterprise networks and cloud infrastructure.

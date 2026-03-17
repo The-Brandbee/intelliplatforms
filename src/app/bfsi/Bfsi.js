@@ -80,8 +80,9 @@ export default function Bfsi() {
           <h1 className="intelli_seconf_banner_first_head">
          ACCELERATING<br/> SPECIALIST 
          <span className="intelli_seconf_banner_second_head">
-      BFSI GROWTH</span>
+      &nbsp; BFSI GROWTH</span>
           </h1>
+
         
           <p className="intelli_seconf_banner_first_para">
         Driving modernization, resilience, and innovation across asset, investment, and retirement ecosystems.
