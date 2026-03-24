@@ -36,6 +36,7 @@ import boyNT from "../img/inteli_second_large_slept.png";
 import boyN from "../img/shutterstock_1419431318@2x.png";  
 import Banner from "../img/part-banner.png";  
 import CustomerOnneTfoy from "../img/built-new-43.png";
+import DATADOG from "../img/DATADOG@300x.png"
 
 
 
@@ -168,12 +169,12 @@ export default function Partners() {
       <div className="intelli_partener_new_left_column intelli_partener_new_left_column_bordered">
         <div className="intelli_partener_new_main_box">
           <div className="intelli_partner_main_logo_box">
-          <Image src={LogoFour} alt="" />
+          <Image src={DATADOG} alt="" />
           </div>
           <p>
-            Splunk offers a powerful value proposition centered on real-time analytics and massive-scale data processing, building upon its legacy in log management. The Splunk Observability Cloud unifies metrics, logs, and traces and excels at providing deep, real-time insights through its streaming analytics and high-volume data ingestion capabilities. Its most important value for customers is the ability to ingest and rapidly analyze virtually any type of machine data from across the entire IT infrastructure. This capability provides a unique, analytics-powered approach to quickly detect, investigate, and resolve issues, making it a critical tool for organizations with complex, data-intensive environments.
+            Datadog’s primary value proposition lies in its ability to deliver a fully converged platform that unifies observability and security at scale. With integrations across 700+ technologies, it enables teams to ingest and visualize telemetry data spanning infrastructure, applications, networks, and user experience within a single, flexible interface. What sets Datadog apart is the seamless integration of cloud security into the observability workflow, bringing together threat detection, posture management, and application security. This unified approach enables DevOps, Security, and Platform teams to collaborate in real time, helping organizations accelerate innovation while maintaining a secure, resilient, and high-performing infrastructure.
           </p>
-          <p><a target="_blank" href="https://www.splunk.com/">Know More</a> </p>
+          <p><a target="_blank" href="https://www.datadoghq.com/">Know More</a> </p>
         </div>
       </div>
 
@@ -186,12 +187,12 @@ export default function Partners() {
       <div className="intelli_partener_new_right_column intelli_partener_new_right_column_bordered">
         <div className="intelli_partener_new_main_box">
           <div className="intelli_partner_main_logo_box">
-            <Image src={LogoSix} alt="" />
+            <Image src={LogoFour} alt="" />
           </div>
           <p>
-            Nexthink's focus is on Digital Employee Experience (DEX), which is its primary value proposition. Unlike other platforms focused on back-end infrastructure or customer-facing applications, Nexthink provides real-time, staff-centric or customer direct visibility into the performance of devices, applications, and networks from the perspective of the end-user. Key capabilities include measuring employee sentiment, automated remediation of local device issues, and defining digital experience scores. This allows customers' IT support and operations teams to proactively address issues that impact employee productivity and happiness, shifting IT from a reactive support model to a proactive, experience-focused function, often in an agentic format.
+            Splunk offers a powerful value proposition centered on real-time analytics and massive-scale data processing, building upon its legacy in log management. The Splunk Observability Cloud unifies metrics, logs, and traces and excels at providing deep, real-time insights through its streaming analytics and high-volume data ingestion capabilities. Its most important value for customers is the ability to ingest and rapidly analyze virtually any type of machine data from across the entire IT infrastructure. This capability provides a unique, analytics-powered approach to quickly detect, investigate, and resolve issues, making it a critical tool for organizations with complex, data-intensive environments.
           </p>
-          <p><a target="_blank" href="https://nexthink.com/">Know More</a> </p>
+          <p><a target="_blank" href="https://www.splunk.com/">Know More</a> </p>
         </div>
       </div>
     </div>
@@ -201,12 +202,12 @@ export default function Partners() {
       <div className="intelli_partener_new_left_column">
         <div className="intelli_partener_new_main_box">
           <div className="intelli_partner_main_logo_box">
-            <Image src={LogoSeven} alt="" />
+            <Image src={LogoSix} alt="" />
           </div>
           <p>
-            Evolven's unique value proposition is its specialty in Change and Configuration Risk Intelligence. Its core capability involves using patented machine learning to automatically detect and analyze all actual changes (configuration, code, workload) from infrastructure to application, comparing them against approved plans, baselines, and consistent environments. This allows customers to rapidly accelerate troubleshooting by pinpointing the exact change that caused an incident—the number one cause of outages—and to enforce change control. Evolven is critical for ensuring environmental consistency, detecting configuration drift, and providing a comprehensive change audit trail for stability and compliance.
+            Nexthink's focus is on Digital Employee Experience (DEX), which is its primary value proposition. Unlike other platforms focused on back-end infrastructure or customer-facing applications, Nexthink provides real-time, staff-centric or customer direct visibility into the performance of devices, applications, and networks from the perspective of the end-user. Key capabilities include measuring employee sentiment, automated remediation of local device issues, and defining digital experience scores. This allows customers' IT support and operations teams to proactively address issues that impact employee productivity and happiness, shifting IT from a reactive support model to a proactive, experience-focused function, often in an agentic format.
           </p>
-          <p><a target="_blank" href="https://www.evolven.com/">Know More</a> </p>
+          <p><a target="_blank" href="https://nexthink.com/">Know More</a> </p>
         </div>
       </div>
 
@@ -219,6 +220,39 @@ export default function Partners() {
       <div className="intelli_partener_new_right_column intelli_partener_new_right_column_no_bdr">
         <div className="intelli_partener_new_main_box">
           <div className="intelli_partner_main_logo_box">
+           <Image src={LogoSeven} alt="" />
+          </div>
+          <p>
+            Evolven's unique value proposition is its specialty in Change and Configuration Risk Intelligence. Its core capability involves using patented machine learning to automatically detect and analyze all actual changes (configuration, code, workload) from infrastructure to application, comparing them against approved plans, baselines, and consistent environments. This allows customers to rapidly accelerate troubleshooting by pinpointing the exact change that caused an incident—the number one cause of outages—and to enforce change control. Evolven is critical for ensuring environmental consistency, detecting configuration drift, and providing a comprehensive change audit trail for stability and compliance.
+          </p>
+          <p><a target="_blank" href="https://www.evolven.com/">Know More </a> </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Row 4 */}
+    <div className="intelli_partener_new_main_row">
+      <div className="intelli_partener_new_left_column">
+        <div className="intelli_partener_new_main_box">
+          <div className="intelli_partner_main_logo_box">
+            <Image src={LogoNine} alt="" />
+          </div>
+          <p>
+            mydecisive.ai's primary value proposition centers on giving customers control and cost-efficiency over their observability data, particularly for traces, by leveraging open standards like OpenTelemetry. Its key capability is the Dynamic Trace Triggers and its Smart Telemetry Hub, which captures every span of trace data without expensive, restrictive sampling. It empowers customers to retain all their detailed data in their own cost-effective cloud storage and build real-time business context from the data. This provides customers with full visibility, the ability to eliminate high vendor tracing costs, and the flexibility to analyze and set alerts on specific business anomalies without vendor lock-in.
+          </p>
+          <p><a target="_blank" href="https://www.mydecisive.ai/">Know More</a> </p>
+        </div>
+      </div>
+
+      <div className="intelli_partener_new_middle_column">
+        <div className="intelli_partener_new_main_img_box">
+         <Image src={LogoEight} alt="" />
+        </div>
+      </div>
+
+      {/* <div className="intelli_partener_new_right_column intelli_partener_new_right_column_no_bdr">
+        <div className="intelli_partener_new_main_box">
+          <div className="intelli_partner_main_logo_box">
            <Image src={LogoNine} alt="" />
           </div>
           <p>
@@ -226,7 +260,7 @@ export default function Partners() {
           </p>
           <p><a target="_blank" href="https://www.mydecisive.ai/">Know More </a> </p>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 </section>
