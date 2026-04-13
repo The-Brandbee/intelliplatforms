@@ -25,7 +25,7 @@ function IndexPage() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 500000000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, []);
@@ -95,7 +95,10 @@ function IndexPage() {
         onMouseLeave={handleMouseUp}
       >
 
-        <Image src={slides[currentSlide]} alt="" />
+        {/* Fade Image */}
+        <div className="fade-slide" key={currentSlide}>
+          <Image src={slides[currentSlide]} alt="" />
+        </div>
 
         {/* Left Arrow */}
         <button className="slider-arrow left" onClick={prevSlide}>
@@ -168,9 +171,32 @@ function IndexPage() {
       </div>
 
       <style jsx>{`
+
         .home-banner-main {
           cursor: grab;
           position: relative;
+          overflow: visible;
+        }
+
+        .home-banner-main img{
+          width:100%;
+          height:auto;
+          display:block;
+        }
+
+        .fade-slide{
+          animation: fadeZoom 1.8s ease-in-out;
+        }
+
+        @keyframes fadeZoom {
+          0%{
+            opacity:0;
+            transform:scale(1.05);
+          }
+          100%{
+            opacity:1;
+            transform:scale(1);
+          }
         }
 
         .home-banner-main:active {
@@ -179,20 +205,20 @@ function IndexPage() {
 
         .slider-arrow {
           position: absolute;
-          top: 50%;
+          top: 40%;
           transform: translateY(-50%);
-          background: rgba(0,0,0,0.4);
+          background: transparent;
           color: #fff;
           border: none;
-              padding: 5px 10px;
-    font-size: 15px;
+          padding: 5px 10px;
+          font-size: 15px;
           cursor: pointer;
           z-index: 9;
           transition: 0.3s;
         }
 
         .slider-arrow:hover {
-          background: rgba(0,0,0,0.7);
+         background: #02c591;
         }
 
         .slider-arrow.left {
@@ -202,7 +228,35 @@ function IndexPage() {
         .slider-arrow.right {
           right: 20px;
         }
+.home-banner-middle-middle{
+animation: contentFade 1.2s ease-in-out;
+}
 
+.last-footer-content .content-frame-om{
+animation: contentFadeUp 1.4s ease-in-out;
+}
+
+@keyframes contentFade{
+0%{
+opacity:0;
+transform:translateY(20px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes contentFadeUp{
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
       `}</style>
     </>
   );
