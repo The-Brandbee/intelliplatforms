@@ -143,13 +143,13 @@ function IndexPage() {
               </div>
 
               <div className='content-frame-om'>
-                <h4>Beyond Strategy Firms:</h4>
-                <p>While others offer theoretical frameworks, we specialize in the direct modernization of front, middle, and back-office operations.</p>
+                <h4>Beyond Global SIs:</h4>
+                <p>Our mission is to fundamentally transform established ways of working through intelligent automation, rather than focusing solely on cost reduction.</p>
               </div>
 
               <div className='content-frame-om'>
-                <h4>Beyond Strategy Firms:</h4>
-                <p>While others offer theoretical frameworks, we specialize in the direct modernization of front, middle, and back-office operations.</p>
+                <h4>Human-Centric AI:</h4>
+                <p>Our deployment of Agentic AI is designed to augment your professional workforce, ensuring human intelligence remains the core of every modernized process.</p>
               </div>
 
             </div>
