@@ -183,7 +183,162 @@ export default function Bfsi() {
         </Accordion>
      
         </div>
+ <div className="faq-section-main-section-heading margin-top">
+          <h3>THE MODERNIZATION  <span>MATRIX</span></h3>   
+ </div>
+<div className="THE-MODERNIZATION-MATRIX-middle-secte">
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-middle-frame">
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-heading">
+      <div className="THE-MODERNIZATION-MATRIX-middle-secte-left">
+        <h3>Service Pillar</h3>
+      </div>
+      <div className="THE-MODERNIZATION-MATRIX-middle-secte-left">
+        <h3>Strategic Focus</h3>
+      </div>
+      <div className="THE-MODERNIZATION-MATRIX-middle-secte-left">
+        <h3>Outcomes</h3>
+      </div>
+  </div>
 
+
+
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-table">
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <h4>Strategic Advisory</h4>
+     </div>
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li>M&A support and integration
+</li>
+          <li>AI and digital adoption roadmaps</li>
+          <li>Legacy retirement and transformation</li>
+          <li>Regulatory and compliance frameworks</li>
+          <li>Outsourcing and GCC Advisory
+</li>
+          </ul>
+     </div>
+       <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li> Seamless transitions
+</li>
+          <li> Digital maturity acceleration
+</li>
+          <li> Regulatory risk mitigation
+</li>
+          <li>Global cost efficiencies
+</li>
+          </ul>
+     </div>
+  </div>
+
+  
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-table">
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <h4>CTO Services</h4>
+     </div>
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          
+          <li> Cloud and modern compute
+</li>
+          <li>Advanced observability and health
+</li>
+          <li>Secure, high-speed networking</li>
+          <li>Resilient cybersecurity protocols</li>
+          </ul>
+     </div>
+       <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li> High-availability infrastructure</li>
+          <li> Proactive system optimization
+</li>
+          <li> Fortification of data sovereignty</li>
+          <li>Improved business continuity</li>
+          </ul>
+     </div>
+  </div>
+  
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-table">
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <h4>CIO Services</h4>
+     </div>
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          
+          <li>Modernizing enterprise apps and platforms
+</li>
+          <li> Unifying disparate SaaS ecosystems
+</li>
+          <li>Modular API and microservices</li>
+          <li>QA Testing and Automation
+</li>
+          </ul>
+     </div>
+       <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li>  Elimination of departmental silos
+</li>
+          <li> Reduced administrative overhead</li>
+          <li>  Accelerated time-to-market
+</li>
+          <li> Enhanced user engagement
+</li>
+          </ul>
+     </div>
+  </div>
+  
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-table">
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <h4>CDO Services</h4>
+     </div>
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li>Strategic data architecture design</li>
+          <li>Rigorous enterprise data management
+</li>
+          <li>Ethical data governance frameworks</li>
+          <li>Synthetic data for ML readiness</li>
+          <li>Actionable Analytics & Roadmap</li>
+          </ul>
+     </div>
+       <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li> Established data sovereignty</li>
+          <li> Global privacy compliance</li>
+          <li> Precise predictive insights</li>
+          <li>Safe and rapid testing of AI models
+</li>
+          </ul>
+     </div>
+  </div>
+  
+  <div className="THE-MODERNIZATION-MATRIX-middle-secte-table">
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <h4>AI & Automation</h4>
+     </div>
+     <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li>Intelligent automation for STP</li>
+          <li> Agentic AI and autonomous workflows
+</li>
+          <li> Strategic AI Roadmap</li>
+          <li>Secure enterprise AI platforms</li>
+          <li>Human-in-the-loop ethical governance</li>
+          </ul>
+     </div>
+       <div className="THE-MODERNIZATION-MATRIX-middle-secte-table-left">
+         <ul>
+          <li>  Superior operational efficiency</li>
+          <li> Deployment of an "AI workforce"
+</li>
+          <li>Scalable, ethical AI successes</li>
+          <li>Quality and speed improvements</li>
+          </ul>
+     </div>
+  </div>
+
+  </div>
+</div>
    <div className="Asset-Management-frame-main FINANCIAL-ECOSYSTEM">
        <div className="faq-section-main-section-heading">
           <h3>EXPERTISE ACROSS <br/>THE <span>FINANCIAL ECOSYSTEM</span></h3>  

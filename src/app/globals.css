@@ -51,8 +51,76 @@ p{
     top: -35px;
     left: -33px;
 }
-
+/*new */
+.THE-MODERNIZATION-MATRIX-middle-secte{
+        width: 80%;
+    margin: 0 auto;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-heading{
+    display: flex;
+    background: #00c590;
+    padding: 13px 15px;
+    border-radius: 10px;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-left{
+    width: 33.33%;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-left h3{
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table{
+        display: flex;
+    border-bottom: 1px solid #00c590;
+    padding: 25px 15px;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table:last-child{
+      border-bottom: 0px solid #00c590;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table-left{
+width: 33.33%;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table-left h4{
+        color: #fff;
+    font-size: 14px;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table-left ul{
+       padding: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table-left ul li{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px
+}
+.THE-MODERNIZATION-MATRIX-middle-secte-table-left ul li::marker {
+  color: #00c590;
+}
 /* si page start*/
+.phase-main-middle-frame-new-add-left{
+    width: 50%;
+}
+.phase-main-middle-frame-new-add-tight{
+      width: 50%;
+}
+.phase-main-middle-frame-new-add{
+    display: flex;
+}
+.phase-main-middle-frame-new-add-left h4{
+       color: #fff;
+    font-size: 15px;
+}
+.phase-main-middle-frame-new-add-tight h4{
+       color: #fff;
+    font-size: 15px;
+}
+.faq-section-main-section-heading.margin-top{
+  margin-top: 50px;
+}
 .last-content-main{
     margin-bottom: 50px;
 }
@@ -2782,7 +2850,28 @@ position: absolute;
     .event-new-middle-middle{
         position: relative;
     }
+    .THE-MODERNIZATION-MATRIX-middle-secte-middle-frame{
+
+    }
 @media only screen and (max-width: 600px) {
+        .THE-MODERNIZATION-MATRIX-middle-secte {
+        width: 90%;
+        margin: 0 auto;
+        overflow: auto;
+    }
+    .THE-MODERNIZATION-MATRIX-middle-secte-middle-frame{
+        width: 800px;
+    }
+    .phase-main-middle-frame-new-add {
+    display: inline-block;
+    width: 100%;
+}
+.phase-main-middle-frame-new-add-left {
+    width: 100%;
+}
+.phase-main-middle-frame-new-add-tight {
+    width: 100%;
+}
     .event-new-middle-middle{
         width: 100%;
     }
