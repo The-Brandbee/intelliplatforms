@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../app/common/Header.js";
+import HomeBanner from "../app/common/HomeBanner.js";
 import HeaderMobileIn from "../app/common/HeaderMobile.js";
 import MarqueeTwo from "../app/common/MarqueeeTwo.js"; 
 import Footer from "../app/common/Footer.js";
@@ -62,18 +63,9 @@ export default function Home() {
   <section className="home-banner intelli_buit_sec_new">
     <div className="container">
       <div className="home-banner-middle">
-        <Image src={Banner} alt="" />
-        <div className="home-banner-middle-middle">
-          <h1 className="intelli_seconf_banner_first_head">
-          BUILT FOR THE ENTERPRISE .
-          <span className="intelli_seconf_banner_second_head">
-         DRIVEN BY OUR EXPERTISE .
-          </span>
-          </h1>
-          <p className="intelli_seconf_banner_first_para">
-  As a global, full-service Managed IT Services Provider with over a decade of experience, Intelli Platforms help businesses navigate the rapidly transforming technology landscape. We deliver innovative solutions that drive scalability and operational efficiency, empowering our clients to meet the evolving demands of the tech ecosystem.
-          </p>
-        </div>
+
+              <HomeBanner /> 
+     
         <div className="home-banner-middle-middle-botto-heading">
           <h3 className="intelli_second_banner_last_head">
             SIMPLIFYING COMPLEXITY. <span>DELIVERING VALUE.</span>
