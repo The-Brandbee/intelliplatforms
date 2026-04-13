@@ -113,7 +113,7 @@ function IndexPage() {
 
         {currentSlide === 0 && (
           <div className="home-banner-middle-middle">
-            <h1 className="intelli_seconf_banner_first_head">BUILT FOR THE ENTERPRISE .<span className="intelli_seconf_banner_second_head">DRIVEN BY OUR EXPERTISE .</span></h1>
+            <h1 className="intelli_seconf_banner_first_head">BUILT FOR THE ENTERPRISE.<span className="intelli_seconf_banner_second_head">DRIVEN BY OUR EXPERTISE.</span></h1>
             <p className="intelli_seconf_banner_first_para">
               As a global, full-service Managed IT Services Provider with over a decade of experience, Intelli Platforms help businesses navigate the rapidly transforming technology landscape. We deliver innovative solutions that drive scalability and operational efficiency, empowering our clients to meet the evolving demands of the tech ecosystem.
             </p>
