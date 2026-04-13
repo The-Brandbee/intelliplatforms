@@ -25,7 +25,7 @@ function IndexPage() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 7000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
@@ -215,6 +215,9 @@ function IndexPage() {
           cursor: pointer;
           z-index: 9;
           transition: 0.3s;
+          border-radius: 22px;
+    height: 35px;
+    width: 35px;
         }
 
         .slider-arrow:hover {
