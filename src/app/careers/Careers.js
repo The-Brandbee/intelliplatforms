@@ -42,7 +42,8 @@ export default function Careers() {
 
         <div className={`careers-page ${raleway.className}`}>
           <section className="careers-hero">
-            <div className="careers-wrap careers-hero-in">
+            <div className="careers-hero-in">
+              <div className="careers-wrap">
               <div className="careers-crumbs">
                 <Link href="/">Home</Link> &nbsp;/&nbsp; Careers
               </div>
@@ -72,6 +73,7 @@ export default function Careers() {
                   <div className="careers-hs-n">2</div>
                   <div className="careers-hs-l">Open Roles</div>
                 </div>
+              </div>
               </div>
             </div>
           </section>
