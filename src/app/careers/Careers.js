@@ -116,6 +116,14 @@ export default function Careers() {
                       Full-time
                     </div>
                     <div className="careers-job-meta-item">
+                      <span className="careers-meta-label">Openings</span>
+                      2
+                    </div>
+                    <div className="careers-job-meta-item">
+                      <span className="careers-meta-label">Experience</span>
+                      0 Year
+                    </div>
+                    <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Posted</span>
                       June 15, 2026
                     </div>
@@ -170,6 +178,14 @@ export default function Careers() {
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Industry</span>
                       IT Managed Services
+                    </div>
+                    <div className="careers-job-meta-item">
+                      <span className="careers-meta-label">Openings</span>
+                      2
+                    </div>
+                    <div className="careers-job-meta-item">
+                      <span className="careers-meta-label">Experience</span>
+                      0 Year
                     </div>
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Posted</span>
