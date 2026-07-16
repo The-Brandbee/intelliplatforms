@@ -117,7 +117,7 @@ export default function Careers() {
                     </div>
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Openings</span>
-                      2
+                      Multiple
                     </div>
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Experience</span>
@@ -181,7 +181,7 @@ export default function Careers() {
                     </div>
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Openings</span>
-                      2
+                      Multiple
                     </div>
                     <div className="careers-job-meta-item">
                       <span className="careers-meta-label">Experience</span>
