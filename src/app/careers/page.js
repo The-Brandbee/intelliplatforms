@@ -1,23 +1,3 @@
-import { notFound } from "next/navigation";
-
-// Careers page is disabled for now.
-// To re-enable:
-// 1. Restore the CareersPage export below (commented out)
-// 2. Uncomment Careers links in Header.js and HeaderMobile.js
-
-export const metadata = {
-  title: "Careers & Job Openings | Intelli Platforms",
-  robots: {
-    index: false,
-    follow: false,
-  },
-};
-
-export default function CareersPage() {
-  notFound();
-}
-
-/*
 import Careers from "./Careers";
 
 export const metadata = {
@@ -39,4 +19,3 @@ export const metadata = {
 export default function CareersPage() {
   return <Careers />;
 }
-*/

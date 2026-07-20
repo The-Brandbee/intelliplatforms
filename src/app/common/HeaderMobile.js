@@ -118,7 +118,6 @@ class MobileMenu extends React.Component {
                       </AccordionItemHeading>
                       </Link>
                   </AccordionItem>
-                  {/* Re-enable when recruiting:
                   <AccordionItem>
                   <Link href="/careers">
                       <AccordionItemHeading>
@@ -126,7 +125,6 @@ class MobileMenu extends React.Component {
                       </AccordionItemHeading>
                       </Link>
                   </AccordionItem>
-                  */}
                   <AccordionItem>
                   <Link href="/contact-us">
                       <AccordionItemHeading>

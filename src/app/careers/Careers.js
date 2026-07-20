@@ -70,7 +70,7 @@ export default function Careers() {
                   <div className="careers-hs-l">Reach &amp; Results</div>
                 </div>
                 <div>
-                  <div className="careers-hs-n">2</div>
+                  <div className="careers-hs-n">0</div>
                   <div className="careers-hs-l">Open Roles</div>
                 </div>
               </div>
@@ -83,9 +83,10 @@ export default function Careers() {
               <div className="careers-sec-eyebrow">Job Openings</div>
               <h2 className="careers-sec-title">Current Opportunities</h2>
               <p className="careers-sec-sub">
-                Join a team that doesn&apos;t just support IT - we solve for it.
-                Review the roles below and email your resume to apply.
+                There are no open roles at this time. Check back soon, or email
+                your resume to stay on our radar.
               </p>
+              {/* No openings right now — uncomment when recruiting:
               <div className="careers-jobs">
                 <article className="careers-job" id="software-developers">
                   <div className="careers-job-head">
@@ -239,6 +240,7 @@ export default function Careers() {
                   </div>
                 </article>
               </div>
+              */}
             </div>
           </section>
 
