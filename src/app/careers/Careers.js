@@ -244,6 +244,7 @@ export default function Careers() {
             </div>
           </section>
 
+          {/* No openings — uncomment when recruiting:
           <section className="careers-section careers-apply">
             <div className="careers-wrap">
               <div className="careers-apply-card">
@@ -286,6 +287,7 @@ export default function Careers() {
               </p>
             </div>
           </section>
+          */}
         </div>
 
         <section className="foot-top-sectto">
