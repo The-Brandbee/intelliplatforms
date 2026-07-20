@@ -59,12 +59,10 @@ function IndexPage() {
     </li>
   </ul>
 </li>
- <li>
+              <li>
               <Link href="/events">Events</Link>
               </li>
-              <li>
-              <Link href="/careers">Careers</Link>
-              </li>
+              {/* Re-enable when recruiting: <li><Link href="/careers">Careers</Link></li> */}
               <li>
               <Link href="/contact-us">Contact Us</Link>
               </li>
