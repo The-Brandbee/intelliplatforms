@@ -96,7 +96,7 @@ export default function Careers() {
                     </div>
                     <a
                       className="careers-btn careers-btn-teal"
-                      href="mailto:hr@inteliplatforms.com?subject=Application%20-%20Software%20Developers"
+                      href="mailto:hr@intelliplatforms.com?subject=Application%20-%20Software%20Developers"
                     >
                       Apply Now
                     </a>
@@ -156,7 +156,7 @@ export default function Careers() {
                     </div>
                     <a
                       className="careers-btn careers-btn-teal"
-                      href="mailto:hr@inteliplatforms.com?subject=Application%20-%20Network%20Engineers"
+                      href="mailto:hr@intelliplatforms.com?subject=Application%20-%20Network%20Engineers"
                     >
                       Apply Now
                     </a>
@@ -258,7 +258,7 @@ export default function Careers() {
                 <div className="careers-apply-right">
                   <a
                     className="careers-btn careers-btn-teal"
-                    href="mailto:hr@inteliplatforms.com"
+                    href="mailto:hr@intelliplatforms.com"
                   >
                     Email Your Resume
                   </a>
@@ -266,7 +266,7 @@ export default function Careers() {
               </div>
               <p className="careers-apply-note">
                 Email resume to HR Dept., Inteli Platforms, Inc., at{" "}
-                <a href="mailto:hr@inteliplatforms.com">hr@inteliplatforms.com</a>
+                <a href="mailto:hr@intelliplatforms.com">hr@intelliplatforms.com</a>
                 .
               </p>
               <div className="careers-referral">

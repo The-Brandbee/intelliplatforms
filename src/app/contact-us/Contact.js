@@ -207,7 +207,7 @@ export default function Contact() {
     <div>
       <h6>Email Address</h6>
       <p>
-        <a href="mailto:hr@inteliplatforms.com">hr@inteliplatforms.com</a>
+        <a href="mailto:hr@intelliplatforms.com">hr@intelliplatforms.com</a>
       </p>
     </div>
   </li>
