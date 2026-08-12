@@ -422,6 +422,37 @@ display: none;
     padding-top: 10px;
     border-bottom: 1px solid #27917F;
 }
+.header-right ul li ul li.has-submenu > ul{
+  display: none;
+  position: absolute;
+  right: 100%;
+  left: auto;
+  top: 0;
+  width: 220px;
+  margin-right: 8px;
+  margin-left: 0;
+}
+.header-right ul li ul li.has-submenu > a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 4px;
+}
+.header-right ul li ul li.has-submenu > a::after{
+  content: "‹";
+  color: #01C591;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
+}
+.header-right ul li ul li.has-submenu:hover > a::after{
+  color: #fff;
+}
+.header-right ul li ul li.has-submenu:hover > ul{
+  display: block;
+}
 .dropdown.mobilemenu-new .Menu-underLink li {
     border-bottom: 1px solid #27917F;
 }
@@ -431,8 +462,13 @@ display: none;
 .dropdown.mobilemenu-new .Menu-underLink ul{
         padding-left: 10px;
 }
+.dropdown.mobilemenu-new .Menu-underLink li.Menu-underLink-sub a{
+  padding-left: 12px;
+  font-size: 13px;
+  opacity: 0.9;
+}
 
-.header-right ul li:hover ul{
+.header-right ul li:hover > ul{
  display: inline-block;
 }
 .header-right ul a ul li{
@@ -1008,6 +1044,93 @@ padding-top: 10px;
     width: 40%;
     top: 10%;
     left: 63%;
+}
+.network-page.bfsi-sub-page .intelli_buit_sec_new .home-banner-middle-middle.bfsi-sub-banner-text {
+    left: 5%;
+    top: 18%;
+    width: 45%;
+    text-align: left;
+}
+.network-page.bfsi-sub-page .intelli_buit_sec_new {
+    padding-bottom: 120px !important;
+    margin-bottom: 80px;
+}
+.network-page.bfsi-sub-page footer {
+    clear: both;
+    position: relative;
+    z-index: 2;
+}
+.network-page.bfsi-sub-page .bfsi-sub-page-heading {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    width: 45%;
+    z-index: 5;
+    text-align: left;
+}
+.network-page.bfsi-sub-page .bfsi-sub-page-heading .intelli_seconf_banner_first_head {
+    color: #fff !important;
+    margin: 0;
+}
+.network-page.bfsi-sub-page .intelli_buit_sec_new .home-banner-middle-middle .intelli_seconf_banner_second_head {
+    display: block;
+    margin-bottom: 12px;
+}
+.network-page .bfsi-specialties-grid {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    width: 48%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    z-index: 5;
+}
+.network-page .bfsi-specialty-card {
+    background: rgba(1, 38, 56, 0.82);
+    border: 1px solid rgba(1, 197, 145, 0.5);
+    border-radius: 12px;
+    padding: 14px 16px;
+    backdrop-filter: blur(4px);
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+.network-page .bfsi-specialty-card h4 {
+    color: #01C591;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.network-page .bfsi-specialty-card h4 a {
+    color: #01C591;
+    text-decoration: none;
+}
+.network-page .bfsi-specialty-card h4 a:hover {
+    color: #fff;
+}
+.network-page .bfsi-specialty-card ul {
+    margin: 0;
+    padding-left: 18px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.25s ease, margin-top 0.25s ease;
+}
+.network-page .bfsi-specialty-card:hover {
+    background: rgba(1, 38, 56, 0.95);
+    border-color: #01C591;
+}
+.network-page .bfsi-specialty-card:hover h4 {
+    margin-bottom: 10px;
+}
+.network-page .bfsi-specialty-card:hover ul {
+    max-height: 220px;
+    opacity: 1;
+    margin-top: 0;
+}
+.network-page .bfsi-specialty-card li {
+    color: #fff;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.35;
 }
 .network-page .intelli_buit_sec_new .home-banner-middle-middle.obser {
       position: absolute;
@@ -3086,6 +3209,25 @@ color: #fff;
     z-index: 0;
 }
 @media all and (min-width: 120px) and (max-width: 690px){
+    .network-page .bfsi-specialties-grid {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin: 20px 0 10px;
+    }
+    .network-page .bfsi-specialty-card {
+        backdrop-filter: none;
+    }
+    .network-page .bfsi-specialty-card h4 {
+        margin-bottom: 10px;
+    }
+    .network-page .bfsi-specialty-card ul {
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
+    }
     .contact-us-bottom-img-frame-middle ul {
     display: inline-block;
     border: 1px solid #01C591;
@@ -3327,6 +3469,14 @@ color: #fff;
     top: 0px;
     left: 0px;
 }
+    .network-page.bfsi-sub-page .bfsi-sub-page-heading {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 20px 0 10px;
+        text-align: center;
+    }
     .what_we_bring_the_table_box h3
 
  {

@@ -42,10 +42,24 @@ function IndexPage() {
     Solutions
   </Link>
   <ul className="absolute hidden group-hover:block">
-     <li>
+     <li className="has-submenu">
       <Link href="/bfsi">
        BFSI
       </Link>
+      <ul>
+        <li>
+          <Link href="/bfsi/asset-servicing">Asset Servicing</Link>
+        </li>
+        <li>
+          <Link href="/bfsi/retirement-services">Retirement Services</Link>
+        </li>
+        <li>
+          <Link href="/bfsi/insurance">Insurance</Link>
+        </li>
+        <li>
+          <Link href="/bfsi/capital-markets">Capital Markets</Link>
+        </li>
+      </ul>
     </li>
       <li>
       <Link href="/network-engineering-and-cloud-computing">

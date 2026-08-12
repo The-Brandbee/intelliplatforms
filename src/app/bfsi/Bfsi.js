@@ -4,7 +4,6 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../common/Header.js";
-import HeaderMobileIn from "../common/HeaderMobile.js";
 import Footer from "../common/Footer.js";
 import Maquee from "../common/MarqueeeNew.js"; 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -34,8 +33,8 @@ import Border from "../img/borderdot.png";
 import STANDFOR from "../img/shutterstock_2281049609.png";  
 import Right from "../img/shutterstock_2282746085.png";  
 import BUILDINGOne from "../img/shutterstock_1419431318.png";  
-import Banner from "../img/bfsi-banner.png";  
 import CustomerOnneTfoy from "../img/built-new-43.png";
+import Banner4 from "../img/banner-4.png";
 
  
 
@@ -75,17 +74,62 @@ export default function Bfsi() {
   <section className="home-banner intelli_buit_sec_new nb">
     <div className="container">
       <div className="home-banner-middle">
-        <Image src={Banner} alt="" />
+        <Image src={Banner4} alt="" />
+        <div className="bfsi-specialties-grid">
+          <div className="bfsi-specialty-card">
+            <h4>
+              <Link href="/bfsi/asset-servicing">Asset Servicing</Link>
+            </h4>
+            <ul>
+              <li>Fund Accounting</li>
+              <li>Fund Admin</li>
+              <li>Transfer Agency</li>
+              <li>Custody Solutions</li>
+              <li>Private Credit</li>
+              <li>Reconciliation</li>
+            </ul>
+          </div>
+          <div className="bfsi-specialty-card">
+            <h4>
+              <Link href="/bfsi/retirement-services">Retirement Services</Link>
+            </h4>
+            <ul>
+              <li>Platform Migrations</li>
+              <li>Recordkeeping Systems</li>
+              <li>Secure 2.0, Glide Path</li>
+              <li>New Product Launch</li>
+            </ul>
+          </div>
+          <div className="bfsi-specialty-card">
+            <h4>
+              <Link href="/bfsi/insurance">Insurance</Link>
+            </h4>
+            <ul>
+              <li>P&amp;C</li>
+              <li>Life and Annuities</li>
+            </ul>
+          </div>
+          <div className="bfsi-specialty-card">
+            <h4>
+              <Link href="/bfsi/capital-markets">Capital Markets</Link>
+            </h4>
+          </div>
+        </div>
         <div className="home-banner-middle-middle">
-          <h1 className="intelli_seconf_banner_first_head">
-         ACCELERATING<br/> SPECIALIST 
-         <span className="intelli_seconf_banner_second_head">
-      &nbsp; BFSI GROWTH</span>
+          <h1 className="intelli_seconf_banner_first_head white">
+            EVENTUM ENTERPRISE SOLUTIONS:
+            <span className="intelli_seconf_banner_second_head gr">
+              A LEGACY OF EXCELLENCE
+            </span>
           </h1>
-
-        
-          <p className="intelli_seconf_banner_first_para">
-        Driving modernization, resilience, and innovation across asset, investment, and retirement ecosystems.
+          <p className="intelli_seconf_banner_first_para whaite">
+            Eventum Enterprise Solutions (Eventum) has been an integral part of
+            Intelli Platforms since 2021, functioning as a specialized business
+            unit that contributes over forty years of profound experience across
+            the Financial Services landscape. With a sharp focus on business
+            operations and a proven ability to navigate complex Regulatory and
+            M&amp;A events, Eventum empowers C-suite leadership to successfully
+            realize their most ambitious growth and efficiency objectives.
           </p>
         </div>
         <div className="home-banner-middle-middle-botto-heading TRANSFORMATION new">
@@ -112,6 +156,36 @@ export default function Bfsi() {
       <div className="faq-section-main-section-heading">
           <h3>SHAPING THE FUTURE OF <span>FINANCIAL SERVICES</span></h3>   
       </div>
+        <div className="phase-main-middle-frame">
+          <h3 className="intelli_seconf_banner_first_head">
+            ACCELERATING SPECIALIST
+            <span className="intelli_seconf_banner_second_head">
+              &nbsp; BFSI GROWTH
+            </span>
+          </h3>
+          <p className="intelli_seconf_banner_first_para">
+            Driving modernization, resilience, and innovation across asset,
+            investment, and retirement ecosystems.
+          </p>
+          <p className="intelli_second_banner_last_para">
+            Intelli Platforms partners with global financial institutions to
+            modernize, stabilize, and optimize business models, processes, and
+            technology stacks.
+          </p>
+          <p className="intelli_second_banner_last_para">
+            With over four decades of collective BFSI experience and deep
+            domain expertise across Asset Management, Investment Management,
+            Retirement Services, Employee Benefits, Brokerage, and Insurance,
+            Intelli takes a boutique, specialty-driven approach to operational
+            and digital transformation.
+          </p>
+          <p className="intelli_second_banner_last_para">
+            As the industry moves toward AI, automation, and data-driven
+            engagement, Intelli helps clients embrace next-gen capabilities
+            while preparing for the wealth transfer to Gen Z and millennial
+            investors.
+          </p>
+        </div>
         <div className="faq-section-main-section-middle">
                  
             <Accordion preExpanded={['a']}>

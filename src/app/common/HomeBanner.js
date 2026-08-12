@@ -6,7 +6,7 @@ import Banner2 from "../img/banner-2.png";
 import Banner3 from "../img/banner-3.png";
 import Banner4 from "../img/banner-4.png";
 
-function IndexPage() {
+function IndexPage({ maxSlides }) {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -14,12 +14,13 @@ function IndexPage() {
   const touchEnd = useRef(null);
   const mouseDown = useRef(false);
 
-  const slides = [
+  const allSlides = [
     Banner1,
     Banner2,
     Banner3,
     Banner4
   ];
+  const slides = maxSlides ? allSlides.slice(0, maxSlides) : allSlides;
 
   // Auto slider
   useEffect(() => {

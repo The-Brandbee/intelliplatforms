@@ -98,6 +98,18 @@ class MobileMenu extends React.Component {
        BFSI
       </Link>
                           </li>
+                          <li className="Menu-underLink-sub">
+                            <Link href="/bfsi/asset-servicing">Asset Servicing</Link>
+                          </li>
+                          <li className="Menu-underLink-sub">
+                            <Link href="/bfsi/retirement-services">Retirement Services</Link>
+                          </li>
+                          <li className="Menu-underLink-sub">
+                            <Link href="/bfsi/insurance">Insurance</Link>
+                          </li>
+                          <li className="Menu-underLink-sub">
+                            <Link href="/bfsi/capital-markets">Capital Markets</Link>
+                          </li>
                           <li>
                             <Link href="/network-engineering-and-cloud-computing">
         Network Platforms 
