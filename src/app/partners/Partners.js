@@ -72,6 +72,7 @@ import LogoSeven from "../img/evoleven.png";
 
 import LogoEight from "../img/down-glow-line.svg";
 import LogoNine from "../img/mydecisive.png"; 
+import LogoTen from "../img/neubird-logo.webp"; 
 
 
 
@@ -250,17 +251,20 @@ export default function Partners() {
         </div>
       </div>
 
-      {/* <div className="intelli_partener_new_right_column intelli_partener_new_right_column_no_bdr">
+      <div className="intelli_partener_new_right_column intelli_partener_new_right_column_no_bdr">
         <div className="intelli_partener_new_main_box">
           <div className="intelli_partner_main_logo_box">
-           <Image src={LogoNine} alt="" />
+           <Image src={LogoTen} alt="" />
           </div>
-          <p>
-            mydecisive.ai's primary value proposition centers on giving customers control and cost-efficiency over their observability data, particularly for traces, by leveraging open standards like OpenTelemetry. Its key capability is the Dynamic Trace Triggers and its Smart Telemetry Hub, which captures every span of trace data without expensive, restrictive sampling. It empowers customers to retain all their detailed data in their own cost-effective cloud storage and build real-time business context from the data. This provides customers with full visibility, the ability to eliminate high vendor tracing costs, and the flexibility to analyze and set alerts on specific business anomalies without vendor lock-in.
+          <p>NeuBird AI's core value proposition is The Production Ops Agent, a platform of specialized agents orchestrated as one that keeps production running so engineers don't have to. Its defining capability is agentic instrumentation: rather than bolting a reactive agent onto the alert queue, NeuBird AI fixes the underlying issue upstream, instrumenting the environment to generate the right signals, catching degradation early and driving 80% fewer P1 war rooms. When something breaks, it autonomously investigates across every connected source, delivers a root-cause analysis in minutes with high accuracy while providing causal chain, and guides resolution in minutes. Between incidents it keeps optimizing cost and capturing every fix, returning 200+ engineering hours a month. SOC 2 Type II certified, it runs on-prem, in-VPC, cloud, hybrid, or air-gapped, with zero data storage and human-in-the-loop approval on every action.
           </p>
-          <p><a target="_blank" href="https://www.mydecisive.ai/">Know More </a> </p>
+          <p><a target="_blank" href="https://neubird.ai/">Know More </a> </p>
         </div>
-      </div> */}
+      </div>
+
+
+
+
     </div>
   </div>
 </section>
